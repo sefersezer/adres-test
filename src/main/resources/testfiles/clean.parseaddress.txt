@@ -1,0 +1,273 @@
+IRMAK CAD.JANDARMA SOK.NO:12/B KOZAN ADANA |verificationScore=992| normalizedAddress=hacıuşağı mah. ırmak cad. jandarma sok. no:12/b 01530 kozan adana  |  Cadde ve sokak var, mahalle yok. İlçe içinde nearest streetler aranması bekleniyor. Street bulup, 12 kapı numarasını aramalı. Kapı no bulursa score 992 
+
+IRMAK CAD.JANDARMA SOK.NO:112/B KOZAN ADANA | normalizedAddress=hacıuşağı mah. ırmak cad. jandarma sok. no:112/b 01530 kozan adana | verificationScore=840|  cadde ve sokak var, mahalle yok. olmayan kapı numara verildi, score 840 bekleniyor.
+
+T SELVİ M. BAĞLAR CD. NO:70 KARTALİSTANBUL | normalizedAddress=t selvi mah. bağlar cad. no:70 kartal istanbul | verificationScore=651 | streetHits.countUpperThan = 0 | mahalle bulunamadı. bu sebepten tek bir suggest geldi.
+
+çiğdem sokak no:2 kadıköy istanbul |streetHits.firstId=SO-191594|MetaData.Explanation= MAHALLE| normalizedAddress=göztepe mah. çiğdem sok. no:2 34730 kadıköy istanbul | verificationScore=976 |streetHits.countUpperThan=0| kadıköy ilçesinde sadece göztepe mah. de 1 çiğdem sokak var.
+
+atatürk caddesi kadıköy istanbul |streetHits.countUpperThan=1 | streetHits.firstId=SO-211600|  verificationScore=696| verificationType=OPERATOR1| locationType=CADDESOK | birden fazla mahalleden geçen Cadde örneği (komşu mahalleler)
+
+cihangir mahallesi merkez cami avcılar istanbul |streetHits=null
+
+#scoring file 1000 score
+cihangir mahallesi ormanlı caddesi no:62 d:1 avcılar istanbul | streetHits.firstId=SO-756622 |streetHits.countUpperThan=0 |   verificationScore=1000 |verificationType=KAPI NO | latitude= 40.98668 | longitude = 28.71269
+
+#scoring file 960 score
+ VAKIFLAR mh. BAĞLAR sk. no:3 daire:1 ERGENE TEKİRDAĞ | normalizedAddress = misinli mah. bağlar sok. no:3 d:1 ergene tekirdağ | streetHits.firstId=SO-697457 | quarterHits.firstId=QO-175559 | verificationScore= 960 | verificationType= KAPI NO | locationType= MAHALLE |latitude= 41.29786 | longitude= 27.59867 | metaData.neighborQuarter = true
+ 
+#scoring file 930 score
+ZAFER mh. CUMHURİYET sk. no:9 C1 daire:12  ÇORLU TEKİRDAĞ | normalizedAddress = zafer mah. cumhuriyet bulv. no:9/c1 d:12 59850 çorlu tekirdağ | streetHits.firstId=SO-655283 | verificationScore = 930 | verificationType = KAPI NO | locationType=KAPI NO | metaData.explanation = CADDE | latitude= 41.146780074555885| longitude= 27.833557574555886
+
+#scoring file 930 score
+göztepe mah. çiğdem bulvarı no:20 d:4 kadıköy istanbul | normalizedAddress=göztepe mah. çiğdem sok. no:20 d:4 34730 kadıköy istanbul | streetHits.firstId= SO-191594| locationType= CADDESOK |verificationType= KAPI NO |  MetaData.Explanation=SOKAK | latitude= 40.98117 | longitude= 29.06495
+
+#scoring file 920 score
+çiğdem mah.  göztepe sokak no:6 d:4 kadıköy istanbul  | normalizedAddress = göztepe mah. çiğdem sok. no:6 d:4 34730 kadıköy istanbul | locationType = KAPI NO | verificationType = KAPI NO | verificationScore = 920 |  latitude =  40.98107 | longitude =29.0646| 920 gelebilmesi için ilçenin yazması gerekmektedir.
+
+#scoring file 895 score
+SAMATLI OYUNCAK AŞ. CEMAL GÜRSEL CD. NO:45   06590 CEBECİ/ANKARA TURKIYE | normalizedAddress=samatlı oyuncak a.ş. cebeci mah. cemal gürsel cad. no:45 06590 çankaya ankara | streetHits.firstId=SO-49119 | verificationScore =895 | verificationType=CADDESOK | locationType=CADDESOK | latitude= 39.93298 | longitude=32.87887
+
+#scoring file 855 score # no:104 verificationScore:1000.
+AHİMEHMET mh. BAĞLAR cd. no:103 ERGENE TEKİRDAĞ | normalizedAddress= ahimehmet mah. bağlar cad. no:103 ergene tekirdağ | streetHits.firstId=SO-682843 | verificationScore= 895 | verificationType = CADDESOK | locationType =MAHALLE | latitude= 41.29621 | longitude= 27.69056
+ 
+#scoring file 825 score
+SARICALI MAH. HASANLI SK.  NO.1212 55100 ÇARŞAMBA/SAMSUN TURKIYE | normalizedAddress=sarıcalı mah. hasanlı cad. no:1212 55500 çarşamba samsun | verificationScore=825 | verificationType=CADDESOK | locationType = CADDESOK | MetaData.Explanation= CADDE | streetHits.firstId=SO-75333
+
+#scoring file 815 score
+ŞAİR AHMET KEMAL SK ÇAVLIAPT 2-13 İSTANBUL GÖZTEPE TURKIYE | normalizedAddress= yahyakemal mah. şair sok. 2/13 34410 çavlıapt göztepe kağıthane istanbul | streetHits.firstId =SO-767821 | verificationScore=815 | verificationType = CADDESOK | locationType = CADDESOK | latitude= 41.08392 | longitude= 28.98584 | streetHits.matchScore.partsUsed=true
+
+#scoring file 998 score
+SOĞANLI MAH. 10. sk NO.1  16100 OSMANGAZİ/BURSA | verificationScore= 998 |streetHits.firstId=SO-138661 | streetHits.countUpperThan=0 | normalizedAddress = soğanlı mah. 10. zafer sok. no:1 16190 osmangazi bursa
+SOĞANLI MAH. 10 zafer. sk NO.1  16100 OSMANGAZİ/BURSA | verificationScore=1000 |streetHits.countUpperThan=0
+SOĞANLI MAH. 10 acar sk NO.1  16100 OSMANGAZİ/BURSA | verificationScore = 1000 | streetHits.countUpperThan=0
+
+#test 998 score. distance ninetySix meter
+#şehit muhtar mah. taksim sok. no:1 beyoğlu istanbul | verificationScore= 998 | normalizedAddress = şehit muhtar mah. taksim yağhanesi sok. no:1 34435 beyoğlu istanbul | verificationType = KAPI NO |  locationType =KAPI NO |  latitude =  41.03775 | longitude = 28.98241 | streetHits.countUpperThan=1 | its 'a problem
+şehit muhtar mah. taksim yağhanesi sok. no:1 beyoğlu istanbul | verificationScore = 1000 | latitude = 41.03775 | longitude = 28.98241 | no problem
+şehit muhtar mah. taksim fırını sok. no:1 34435 beyoğlu istanbul | verificationScore = 1000 | latitude =  41.03814 |  longitude = 28.98344 | no problem.
+
+
+#scoring file, 958 score.
+ ZEYNEL ABİDİN MAH. 27 MAYIS CD  NO.8 NUSAYBİN/MARDİN| verificationScore = 958 | normalizedAddress = selahaddin eyyubi mah. 27 mayıs cad. no:8 47300 nusaybin mardin | komsu mahalle oldukları için 958 ile doğrulayabildi
+ 
+#scoring file 707 score
+aziziye mh halide nusret zorlutuna sok no:4 çankaya ankara | verificationScore = 707 | normalizedAddress = güzeltepe mah. halide nusret zorlutuna sok. no:4 06690 çankaya ankara | streetHits.firstId=SO-54257 | verificationType = CADDESOK | locationType = CADDESOK | daha önce tanımlanmamış skor. mahalle değişimi var.
+
+#scoring file 928 score
+TEPEBAŞI MAH. SAKIZADASI SK. NO.7/6   06300 KEÇİÖREN/ANKARA TURKIYE | normalizedAddress=tepebaşı mah. sakızadası cad. no:7/6 06290 keçiören ankara | verificationScore = 928 | streetHits.firstId= SO-56771 | verificationType= KAPI NO | locationType= KAPI NO  | latitude= 39.98178 | longitude = 32.86151 | metaData.explanation = CADDE
+
+#***********************918 example not found
+
+#653 score
+YENİ MAH. 4 SK. NO.100  EDREMİT/VAN | normalizedAddress = yeni mah. 4 sok. no:100 edremit van | verificationScore= 653 | streetHits.countUpperThan=1 |streetHits.firstId = SO-75021 | verificationType= OPERATOR1 | locationType =CADDESOK | latitude= 38.47827 | longitude= 43.34886 | metaData.neighborQuarter = true
+
+#653 score.
+FEVZİÇAKMAK MAH. İSTASYON CD.NO.2130 AKÇAKALE/ŞANLIURFA | normalizedAddress = fevziçakmak mah. istasyon cad. no:2130 akçakale şanlıurfa | streetHits.countUpperThan=2 | streetHits.firstId = SO-323598 | verificationScore=653 | verificationType=OPERATOR1 | locationType= CADDESOK | latitude= 36.713131 | longitude= 38.948542 | metaData.neighborQuarter = true
+ 
+# 598 score
+CUMHURİYET MAH. İNÖNÜ CD.NO.91/C BOZKIR/KONYA | normalizedAddress = cumhuriyet mah. inönü cad. no:91/c bozkır konya | streetHits.firstId= SO-368481 | streetHits.countUpperThan=1 | verificationScore = 598 | verificationType=OPERATOR2 | locationType = MAHALLE |  latitude= 37.18083 | longitude= 32.23814 | no problem. streetHits partsUsed den kayıt yakaladılar fakat birbirlerine uzaklar.
+
+#598 score.
+cumhuriyet MAH.  ÇORUM CAD. NO:5/A    ÇORUM | verificationScore= 598 | verificationType= OPERATOR2 | locationType = ŞEHIR  | latitude =  40.5509 | longitude =  34.9536 | streetHits.countUpperThan=1 | metaData.neighborQuarter=false | metaData.neighborTown = false | neighborTown false gelmesi normaldir, komşu ilçe araması kapalı
+ 
+# 558 score
+ATATÜRK CD. NO:101/A   AFŞİN/K.MARAŞ | normalizedAddress=afşin atatürk cad. no:101/a afşin kahramanmaraş | streetHits.countUpperThan =2 | streetHits.firstId= SO-255326 | verificationScore= 558 | verificationType = OPERATOR2  | locationType = MAHALLE | latitude=  38.248008 |  longitude = 36.953238  | metaData.neighborQuarter = true
+
+#528 score
+cumhuriyet MAH.  ÇORUM çıkmazı. NO:5/A çorum | verificationScore= 528 |  verificationType=OPERATOR2 | locationType= ŞEHIR |  latitude= 40.5509 | longitude= 34.9536 | streetHits.countUpperThan=1 | Adreste ilçe yazmamışız. bu sebeple 2 suggest geliyor
+ 
+#891 score. real street name : sefer
+cihangir mah ormanlı cad sezer sk. no:21 avcılar ist | verificationScore= 891 | verificationType= CADDESOK | locationType=CADDESOK | latitude= 40.98371 | longitude= 28.71301 | streetHits.firstId=SO-756622
+
+#821 score
+YEŞİL DİREK MH. FEVZİ ÇAKMAK CD. olmayan sokak NO:14 haliliye ŞANLIURFA | normalizedAddress = yeşildirek mah. fevzi çakmak sok. no:14 63300 haliliye şanlıurfa | streetHits.firstId = SO-329291 | streetHits.countUpperThan=0 | verificationScore= 821 | verificationType= CADDESOK | locationType = CADDESOK | latitude=37.16498 | longitude= 38.81085
+
+#685 score
+yukarı dudullu mh nato yolu cdinan sk no:5 ümraniye ist | streetHits.countUpperThan=1 |streetHits.firstId = SO-276589 | verificationScore= 685  | verificationType= OPERATOR1 | locationType = CADDESOK  | latitude= 41.00998 | longitude= 29.15516 | ********bu örnekte 2 farklı mahalleden suggest veriyor. tek mahalleden vermesi gerekmez mi?
+
+#615 score
+YILMAZ MH.SAKARYA CD 1.NALBANT SK. D:12 LÜLEBURGAZ KIRKLARELİ | streetHits.countUpperThan=1 |streetHits.firstId = SO-219207 | verificationScore= 615 | verificationType =OPERATOR1  | locationType = CADDESOK  | latitude= 41.41138 | longitude= 27.3517
+
+#599 score
+YENİ MAH. 3 CD. 10 SK.NO:82 KOCASİNAN/KAYSERİ | verificationScore= 599 | verificationType =OPERATOR2 | locationType =MAHALLE | latitude= 38.74424 | longitude= 35.48338 | streetHits.firstId= SO-434383 | streetHits.countUpperThan=0
+
+#992 score
+KALABA ATIŞ CD GELİN KAYA SK 10/A KEÇİÖREN ANKARA | verificationScore = 992 | normalizedAddress= karargahtepe mah. atış cad. gelinkaya sok. 10/a 06120 kalaba keçiören ankara | metaData.explanation=MAHALLE | verificationType= KAPI NO | locationType= KAPI NO | latitude = 39.97107 | longitude= 32.85897
+
+#840 score
+sakız ağaı cad grup sk no:11 keçiören ankara | normalizedAddress = 19 mayıs mah. sakız ağaı cad. gurup sok. no:11 06290 keçiören ankara | streetHits.firstId = SO-59763 | verificationScore= 840 | verificationType= CADDESOK | locationType = CADDESOK  | latitude= 39.99148 | longitude=32.85387 | metaData.explanation=MAHALLE | ağacı -> ağaı bulundu ama neden düzelmedi?
+
+#801 score
+ŞEHİTLER CAMİ CAD. 3 SOK.NO: 4 150 EVLER AYVALIK/BALIKESİR | normalizedAddress = 150 evleri 150 evler mah. şehitler cami cad. 3. sok. no:4 ayvalık balıkesir | streetHits.firstId=SO-575747 | metaData.explanation=MAHALLE | verificationScore = 801 | verificationType = CADDESOK  | locationType =MAHALLE | latitude = 39.33189656981416 | longitude= 26.706288103147493
+
+#401 score
+T.TEMELLİ CD.14.SK.ÖĞRETMENLER KOOP NO:25/2 MALATYA      TURKIYE | normalizedAddress = öğretmenler koop t. temelli cad. 14. sok. no:25/2 malatya | streetHits.firstId=SA-266116-1 | streetHits.countUpperThan=1 |verificationScore= 401 | verificationType=  OPERATOR2 | locationType = ŞEHIR | latitude= 38.3475 | longitude= 38.3143 | streetHits.firstId dikkat. ve clientta birden fazla sonuç getirmesi gerekirken street hitler optimize olduğundan mıdır nedir direkt tek sonuç geliyor
+
+#985 score
+ETİ BANK TESİSLER YOLU CAD ÇAĞLAR APT NO 14 D 7 AVCILAR - 34315 AVCILAR İSTANBUL | normalizedAddress= etibank ambarlı mah. tesisler yolu cad. çağlar apt. no:14 d:7 34315 avcılar istanbul | streetHits.firstId = SO-755322 | metaData.explanation = MAHALLE | verificationScore= 985 | verificationType = KAPI NO | locationType=CADDESOK |  latitude= 40.97741 | longitude= 28.70432
+
+#818 score
+SAKARYA CAD.NO.59/13 BORNOVA    35040 İZMİR/İZMİR TURKIYE | normalizedAddress = kazımdirik mah. sakarya cad. no:59/13 35100 bornova izmir |  streetHits.firstId=SO-796283 |  metaData.explanation = MAHALLE | verificationScore= 818 | verificationType =CADDESOK | locationType = CADDESOK | latitude= 38.460453 |longitude= 27.199448
+
+#990 score 
+SAHİLYOLU KENEDY CD. NO 51 D.13 BAKIRKÖY İSTANBUL 34710   34710 / TURKIYE | normalizedAddress= sakızağacı mah. kenedy cad. no:51 d:13 34142 34710 bakırköy istanbul | streetHits.firstId = SO-179340 | metaData.explanation = MAHALLE | verificationScore= 990 | verificationType =KAPI NO | locationType = KAPI NO | latitude= 40.977 | longitude= 28.8813
+
+#**********************696 score örnek bul
+
+#*******************520 score
+
+
+#699 score
+Adliye Bulv.   27 Selçuklu Konya | verificationScore= 699 | verificationType = OPERATOR1 | locationType = İLÇE |  latitude= 37.87917 | longitude= 32.48658 | streetHits.firstId = SO-70565 | streetHits.countUpperThan=0
+
+#679 score
+ZİYA GÖKALP CD. SELVİ APT. NO.52/A FINDIKZADE FATİH/İSTANBUL | normalizedAddress = ziya gökalp cad. selvi apt. no:52/a fındıkzade fatih istanbul | streetHits.countUpperThan=0 | streetHits.firstId = SO-184800 | verificationScore = 679 | verificationType =OPERATOR1 | locationType = CADDESOK | latitude =  41.01116 | longitude = 28.93255
+ 
+#679 score
+TRAFİK TESCİL VE DENETLEME ŞUBE MÜD    43000 MERKEZ | poiHits.firstId = PO-71200000551 | poiHits.countUpperThan=0 | verificationScore= 679 | verificationType =POIOPERATOR | locationType = BULUNAMADI | latitude= 0.0 | longitude= 0.0 | CS / POI için aynı skorlar kullanılıyor.
+
+#515 score
+SIRAEVLER CD. DA:26 BAHÇELİEVLER | streetHits.countUpperThan=2 | streetHits.firstId = SO-186837 | verificationScore= 515 | verificationType = OPERATOR2 | locationType = İLÇE | latitude = 40.99966 | longitude = 28.85199
+
+#689 score 
+SIRAEVLER CD. DA:26  | streetHits.countUpperThan=1 |streetHits.firstId = SO-373218 | verificationScore =  689 | verificationType = OPERATOR1 |  locationType = CADDESOK | latitude = 0.0 | longitude= 0.0 | no problem
+
+#816 score
+YENİYOL CD NO:22/A AMASYA | verificationScore= 816 |  verificationType= CADDESOK | locationType= CADDESOK | latitude= 40.76394 | longitude= 36.31767 | normalizedAddress = cumhuriyet mah. yeniyol cad. no:22/a 05800 taşova amasya | streetHits.firstId = SO-100178 |streetHits.countUpperThan = 0 | no problem
+
+#984 score
+YENİYOL CD NO:1/A AMASYA | normalizedAddress = cumhuriyet mah. yeniyol cad. no:1/a 05800 taşova amasya | streetHits.firstId=SO-100178 | streetHits.countUpperThan = 0 | verificationScore= 984 | verificationType =KAPI NO | locationType =  CADDESOK | latitude =  40.76394 | longitude= 36.31767 | metaData.explanation = İLÇE,MAHALLE | no problem
+
+#982 score
+tarlabasi bulv no:22  ist | normalizedAddress = şehit muhtar mah. tarlabaşı bulv. no:22 34435 beyoğlu istanbul | streetHits.countUpperThan=0 | streetHits.firstId=SO-190632 | verificationScore= 982 |  verificationType= KAPI NO | locationType=KAPI NO | latitude= 41.03762 | longitude= 28.98364 | metaData.explanation = İLÇE,MAHALLE | no problem
+
+#973 score
+tarlabasi çıkmazı no:22  ist | normalizedAddress =  yenibosna mah. tarlabaşı sok. no:22 34197 bahçelievler istanbul |  streetHits.firstId = SO-781410 | streetHits.countUpperThan= 0 | verificationScore=  973 | verificationType = KAPI NO | locationType = KAPI NO | latitude =  41.01977 | longitude= 28.82794 | metaData.explanation= İLÇE,MAHALLE | no problem
+
+# 517 score
+SAKARYA CD N:1 54100 MERKEZ/SAKARYA TURKIYE | streetHits.countUpperThan=25 |streetHits.firstId = SO-340058 | verificationScore= 517 | verificationType = OPERATOR2 | locationType =ŞEHIR |  latitude= 40.748874 | longitude= 30.379333 | operator2 geldiğinden normalize adresin bir gereği kalmamıştır.
+
+#976 score - center town
+yavuz sultan selim sk. no: 5 a merkez edirne | normalizedAddress = şükrüpaşa mah. yavuz sultan selim sok. no:5/a 22030 merkez edirne | streetHits.countUpperThan = 0 | streetHits.firstId = SO-726177 | verificationScore= 976 | verificationType =KAPI NO |  locationType = KAPI NO | latitude=  41.6748582769402 | longitude= 26.587849610273537 | metaData.explanation = MAHALLE | 976 skor test. merkez ilçe içeriyor
+
+#976 score - normal town
+zincirli sk. no:15 ipsala edirne |normalizedAddress = kapucu mah. zincirli sok. no:15 22400 ipsala edirne | streetHits.firstId = SO-170865 | streetHits.countUpperThan=0 | verificationScore= 976 | verificationType = KAPI NO | locationType = CADDESOK | latitude= 40.92669 | longitude= 26.39123 | metaData.explanation = MAHALLE | 976 skor test. normal ilçe içeriyor
+
+#983 score
+yayla cad. no:1 d:6 kırklareli | normalizedAddress= demirtaş mah. yayla cad. no:1 d:6 39000 merkez kırklareli | streetHits.firstId = SO-156386 | streetHits.countUpperThan=0| metaData.explanation =  İLÇE,MAHALLE | verificationScore= 983 | verificationType = KAPI NO | locationType = KAPI NO | latitude= 41.73616 | longitude= 27.22388
+
+#518 score
+talat paşa cad. no:91/b d:7 edirne | streetHits.countUpperThan = 14 | verificationScore= 518 | verificationType =OPERATOR2 | locationType =ŞEHIR  | latitude= 41.6755 | longitude= 26.5604 | no problem
+
+#690 score
+CUMHURİYET CD. NO:777 . - SİİRT | normalizedAddress = cumhuriyet cad. no:777 merkez siirt | streetHits.countUpperThan = 4  | streetHits.firstId = SO-344407 | verificationScore= 690 | verificationType = OPERATOR1 | locationType =CADDESOK | latitude= 37.92646 | longitude =  41.94355
+
+#809 score
+SAMUR SK. BERKER AP. NO.32 KOLEJ 06550 ÇANKAYA/ANKARA | normalizedAddress = ön cebeci mah. samur sok. berker apt. no:32 06590 kolej çankaya ankara | streetHits.firstId =SO-51222 | streetHits.countUpperThan=0 | verificationScore= 809 | verificationType =CADDESOK | locationType =CADDESOK | latitude=  39.92306 |  longitude= 32.86546 | metaData.explanation= MAHALLE | no problem.
+
+#981 score - locationType : mahalle, explanation : mahalle
+ZAMBAK SK. NO:32 KALE 17200 BİGA TURKIYE | normalizedAddress=kozçeşme köyü zambak sok. no:32 17200 kale biga çanakkale | streetHits.firstId=SO-152374 | streetHits.countUpperThan=0 | verificationScore= 981 | verificationType=KAPI NO | locationType= MAHALLE | latitude= 40.267619 | longitude= 27.03254  | metaData.explanation=MAHALLE | köy olduğu için konum türü mahalle olarak gelmiş. eksik alan bilgisi : mahalle
+
+#981 score - district included. poi not found
+ZÜHTÜPAŞA İ.Ö.O. HASAN AMİR SK. NO.7 KIZILTOPRAK   34710 KADIKÖY/İSTANBUL | normalizedAddress = zühtüpaşa ilk okulu zühtüpaşa mah. hasanamir sok. no:7 34724 kızıltoprak kadıköy istanbul | streetHits.countUpperThan = 0 | streetHits.firstId= SO-424904 | poiVerificationScore= 0 |  verificationScore= 981 | verificationType= KAPI NO | locationType =KAPI NO  | latitude= 40.98383 | longitude= 29.04163 | metaData.explanation=MAHALLE
+
+#687 score. keyword-close streets!
+SANCAK 203 SK N:17/9 ÇANKAYA/ANKARA | streetHits.countUpperThan=2 | streetHits.firstId = SO-700447 | verificationScore= 687 | verificationType= OPERATOR1 | locationType =CADDESOK | latitude= 39.876101 | longitude=  32.719431
+
+#511 score. far streets. locationType : semt
+SALKIM SÖĞÜT SOK.N.30/6 DİKMEN/SOKULLU ANKARA | normalizedAddress =  salkım söğüt sok. no:30/6 sokullu dikmen çankaya ankara | streetHits.countUpperThan=3 | streetHits.firstId = SO-880253 | verificationScore= 511 | verificationType= OPERATOR2 | locationType =SEMT | latitude= 39.888555 | longitude =  32.841052 | locationType semt gelmiş. ilk defa gördüm
+
+#697 score. single record
+uzunçayır sok. no:21/9 acıbadem kadıköy istanbul | streetHits.countUpperThan= 0 |streetHits.firstId = SO-206995 | verificationScore= 697 | verificationType = OPERATOR1 | locationType = SEMT | latitude= 41.001132 | longitude=29.038428 | streetHits.matchScore.fuzzyUsed =false | operator1 olarak geldiği için Client ekranında direkt adres detayı gösterilmemiş.
+
+#671 score
+ŞEKER EVLERİ YAZLIK SK N ADAPAZARI | streetHits.firstId = SO-304600 | streetHits.countUpperThan= 0 | poiVerificationScore = 100 | verificationScore = 671 |  verificationType = OPERATOR1 | locationType = CADDESOK | latitude= 40.78449 | longitude=30.38228
+
+#506 score
+ispat cami cumhuriyet sok. no:1 d:12 keşan edirne | streetHits.countUpperThan= 4 | streetHits.firstId = SO-686835 | poiVerificationScore= 100  | verificationScore= 506 | verificationType=OPERATOR2 | locationType= İLÇE | latitude= 40.8547 | streetHits.matchScore.fuzzyUsed=false | longitude= 26.62993
+
+# 974 score 
+tunaman sok. and apt. no:4/12 34726 dalyan istanbul | normalizedAddress=  fenerbahçe mah. tunaman sok. and apt. no:4/12 34726 dalyan kadıköy istanbul | streetHits.firstId= SO-204665 |streetHits.countUpperThan=0 | verificationScore= 974 | verificationType= KAPI NO | locationType= KAPI NO | latitude= 40.97165 | longitude= 29.04509 | metaData.explanation= İLÇE,MAHALLE
+
+#807 score
+#YAVAŞÇAŞAHİN SK. NO:666/8 KAT:2 E.ÖNÜ TURKIYE | normalizedAddress = e. önü tahtakale mah. yavaşça şahin sok. no:666/8 kat:2 34116 fatih istanbul | streetHits.countUpperThan=0| streetHits.firstId=SO-791594 | poiHits.countUpperThan = 1 | poiHits.firstId = PO-59200003864 | poiVerificationScore =500 | verificationScore= 807 | verificationType= CADDESOK | locationType =CADDESOK | latitude= 41.0158 | longitude= 28.96787 | metaData.explanation =İLÇE,MAHALLE,ŞEHİR | jira: PAR-190
+
+#**************680 score - operator1
+
+
+#680 score - poioperator
+ŞİŞLİ BELEDİYE BAŞKANLIĞI HESAP İŞLERİ MÜDÜRLÜĞÜŞİŞLİ | normalizedAddress = şişli belediyesi hesap işleri mudurlugu şişli istanbul | poiHits.countUpperThan = 0 | poiHits.firstId = PO-34200003290 | streetVerificationScore= 680 | poiVerificationScore= 680 | verificationScore = 680 | verificationType =POIOPERATOR | locationType =İLÇE | latitude= 41.05232 | longitude= 28.99085
+
+#508 score
+TAŞMEKTEP SK. GÜNAY APT. NO:49DA:5 | normalizedAddress = taşmektep sok. günay apt. no:49 d:5 | streetHits.countUpperThan= 7 | streetHits.firstId = SO-191450 | poiVerificationScore= 0 | verificationScore = 508 |  verificationType =  OPERATOR2 | locationType= BULUNAMADI | latitude= 0.0 | longitude= 0.0
+
+#********************977 score - CHECK IT
+
+
+#808**********************
+
+#974 score
+ÜLKEM SK BEYAZSARAY AP 30/2 İSTANBUL FLORYA | normalizedAddress = şenlikköy mah. ülkem sok. beyazsaray apt. 30/2 34153 florya bakırköy istanbul | streetHits.firstId = SO-443696 |streetHits.countUpperThan= 0 | verificationScore=  974 | verificationType=KAPI NO | locationType=KAPI NO | latitude= 40.96895 | longitude= 28.79988 | metaData.explanation = İLÇE,MAHALLE
+
+#681 score CHECK IT - 
+ YENİÜNİVERSİTELİ SİTESİ 400.SOK.A1 BLOK D.4 ÜMİTKÖY    06534 ANKARA TURKIYE | normalizedAddress = yeniüniversiteli sitesi 400. sok. d:4 a1 blok 06534 ümitköy ankara | streetHits.countUpperThan = 1 | streetHits.firstId = SO-52415 | poiVerificationScore= 100 | verificationScore= 681 | verificationType= OPERATOR1 | locationType =CADDESOK | latitude = 39.88575 | longitude= 32.87498 | 681 merkez beklerken bu örnek normal ilçe getirmiş.
+
+#509 score
+YENİYOL SK SELİN AP B BLK D 16 İSTANBUL ACIBADEM-DÖRTYO TURKIYE | normalizedAddress = yeniyol sok. selin apt. d:16 b blok dörtyo acıbadem istanbul |streetHits.countUpperThan = 2 | streetHits.firstId = SO-358407 | quarterHits.countUpperThan =0 | verificationScore= 509 | verificationType =OPERATOR2 | locationType =SEMT | latitude= 41.001542| longitude=  29.038428 | no problem
+
+#650 score - without main street
+VESTEL KOM ZORLU HOLDİNG HÜRRİYET MAH. 73.SK. NO: 12 GAZİEMİR/SARNI/İZMİR   35410  TURKIYE | normalizedAddress = vestel komutanlığı zorlu holding hürriyet mah. 73. sok. no:12 35410 sarnıç gaziemir izmir | streetHits.countUpperThan= 0 | streetHits.firstId = SO-443734 | poiVerificationScore= 100 | verificationScore= 650 |  verificationType=OPERATOR1 | locationType=MAHALLE | latitude= 38.29851 | longitude= 27.20032 | no problem
+
+#650 score - with main street
+ VEYSEL KARANİ CD. MEVLANA MH. VEKİL SK. NO:23 DA.3 YENİDOĞAN   34100 ÜMRANİYE/İSTANBUL TURKIYE | normalizedAddress = mevlana mah. veysel karani cad. vekil sok. no:23 d:3 34100 yenidoğan ümraniye istanbul | streetHits.firstId = SO-902133 | streetHits.countUpperThan = 0 | verificationScore= 650 | verificationType=OPERATOR1 | locationType=SEMT | latitude= 41.042778 | longitude= 28.912634 | no problem
+
+#502 score 
+ YAĞMUR MOB.İNŞ.HIZIRBEY CD. NO.38Dİ SPANSER YOLU SK.  TURKIYE | normalizedAddress = yağmur mob. inş. hızırbey cad. di spanser yolu sok. no:38 | streetHits.firstId = SO-876014 | streetHits.countUpperThan= 43 | verificationScore= 502 | verificationType=OPERATOR2 | locationType =BULUNAMADI | latitude= 0.0 | longitude= 0.0
+
+#651 score
+VODAFONE HAVAALANI YOLU POLAT SK. EMEK CD.NO.1 PARSAKLAR 06300 KEÇİÖREN/ANKARA TURKIYE | normalizedAddress = emek cad. vodafone havaalanı yolu polat sok. no:1 06300 pursaklar keçiören ankara | streetHits.firstId = SO-382931 | verificationScore= 651 | verificationType= OPERATOR1 | locationType =İLÇE | latitude= 39.98696 | longitude= 32.86472 | no problem
+
+#503 score - have any problem?
+ YAKACIK No:18 DA:1 SAMANDIRA     34860  TURKIYE | normalizedAddress = samandıra no:18 d:1 34860 yakacık samandıra istanbul | streetHits.firstId=SO-773474 | streetHits.countUpperThan=0 | verificationScore= 503 | verificationType= OPERATOR2 | locationType =SEMT | latitude= 40.991845 | longitude= 29.224977 | have any problem? 
+ 
+
+ 
+#prefixUsed & partsUsed tests
+merkez mah. büyük sok. 34245 gaziosmanpaşa istanbul | streetHits.countUpperThan=1 | NO PROBLEM merkez mah. büyük fuatpaşa sok. 34245 gaziosmanpaşa istanbul 
+bostancı mah. bostancı sok. 34744 kadıköy istanbul | normalizedAddress = bostancı mah. bostancı camii sok. 34744 kadıköy istanbul
+caddebostan mah. bostan sok. 34728 kadıköy istanbul | streetHits.firstId = SO-191413 | streetHits.countUpperThan = 1
+içerenköy mah. şehit sk 34752 ataşehir istanbul | streetHits.countUpperThan =1 | streetHits.firstId = SO-204402
+
+
+#no problem
+ALTAYLILAR MAH. 0240 SOK. NO:13 AKDENİZ MERSİN | verificationScore= 250 | verificationType=İLÇE | locationType=İLÇE | latitude= 36.80339 | longitude = 34.6239 
+
+#nearest town
+cumhuriyet MAH. ÇORUM CAD. NO:5/A sorgun çorum | streetHits.countUpperThan = 1 | quarterHits.countUpperThan=2 | verificationScore= 598 | verificationType =OPERATOR2 | locationType= ŞEHIR | latitude= 40.5509 | longitude= 34.9536 
+
+#scoring file 816 score
+sefer cad kahramanmaraş | normalizedAddress = dedebaba mah. sefer hoca cad. 46500 afşin kahramanmaraş | streetHits.firstId = SO-252365 | streetHits.matchScore.partsUsed =true | verificationType = CADDESOK | locationType = CADDESOK  | metaData.explanation = İLÇE,MAHALLE | ok. explanation ok. 
+
+#test 998 score. 
+tomtom mah. bostaniçi camii sok. no:1 34433 beyoğlu istanbul | verificationScore = 1000 | verificationType= KAPI NO | locationType = KAPI NO | latitude= 41.02909 | longitude=  28.97948 | no problem
+tomtom mah. bostaniçi sok. no:1 34433 beyoğlu istanbul | verificationScore = 1000 | verificationType = KAPI NO |  locationType = KAPI NO | latitude=  41.02886 | longitude= 28.9796 | no problem
+
+#clean
+Hilton Istanbul Bomonti Hotel & Conference Center | normalizedAddress = Hilton Istanbul Bomonti Hotel & Conference Center
+Ekşioğlu Pansiyon Apart Otel | normalizedAddress=ekşioğlu oteli ekşioğlu pansiyonu apart otel gümbet mah. bodrum muğla
+Bursa Sanayi Ve Ticaret Odası | normalizedAddress= bursa sanayi ticaret odası fethiye mah. 16140 nilüfer bursa
+Klasik Oto Müzesi sarıyer | normalizedAddress=klasik oto müzesi ferahevler mah. 34457 sarıyer istanbul
+sgk Müdürlüğü Merkez	Kütahya | normalizedAddress = sosyal güvenlik kurumu müdürlügü yıldırım beyazıt mah. 43020 merkez kütahya | jira: PAR-160
+Apart otel cafe & restaurant | verificationScore = 0
+Beşiktaş Jimnastik Kulübü Müzesi | normalizedAddress=jimnastik kulübü müzesi vişnezade mah. 34357 beşiktaş istanbul
+Koca Camii İlköğretim Okulu | normalizedAddress=koca cami ilköğretim okulu koca camii mah. 10840 balya balıkesir
+
+#paritus un ilk versiyonunda bu kayıtlar hata vermiş. hala veriyormu diye koydum bi.
+Yüksek Öğrenim Kredi ve Yurtlar Kurumu Bölge Müdürlüğü | verificationScore=800|  paritusun ilk versiyonunda bu kayıt Paritus tarafında hata vermiş. hala veriyormu diye koydum bi.
+Özel Yeniyaşam İlkokulu ve Rehabilitasyon Meslek Okulu | verificationScore = 800
+
+Anadolu Eğitim Kültür ve Vakfı konya | normalizedAddress=anadolu eğitim kültür ve vakfı şükran mah. 42040 meram konya
+Balıkesir Erkek Öğrenci Yurdu Karesi	Balıkesir | normalizedAddress=balıkesir erkek yurdu dumlupınar mah. 10010 karesi balıkesir
+hasırcıbaşı cad. mutlu apt. no:5|normalizedAddress=hasırcıbaşı cad. mutlu apt. no:5|PAR-200
+Ekincioğlu Sok. No:25|normalizedAddress=Ekincioğlu Sok. No:25|PAR-200

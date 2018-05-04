@@ -1,0 +1,487 @@
+cihangir mahallesi ormanlı caddesi no:62 daire no:1 avcılar istanbul | HOUSENUMBER= 1| sefer ->"daire no" tokeni tanımlı değil. parsedAddress.tokens altında undefined "daire no : 1" veriyor.
+ HAMİDİYE mh. FATİH sk. 86 - A BLOK - TEZSEZER APARTMANI  BABAESKİ KIRKLARELİ|BLOCK=a|APARTMENT=tezsezer
+MERKEZ Mah. 105 Sok. No: 11 / 1 KEMER / ANTALYA|QUARTER=merkez|HOUSENUMBER=11|HOUSENUMBER.SUFFIX=1
+Atakent Mh. Mesa Sitesi 1. Etap B2 D:5 4. Giriş Halkalı \Küçükçekmece 34290 İstanbul|STAGE=1.|HOUSENUMBER=NULL
+MELTEM Mah. 3822 Sok. BAROHAN İŞMERKEZİ Sit. No: 16 D /  MURATPAŞA / ANTALYA|HOUSENUMBER=16|HOUSENUMBER.SUFFIX=d
+ İSMET PAŞA  MAH. MAH. 47. Cad. NO :2 B MANOLYA 4 Kat:27 Daire: 27 PK:00000 ÇERKEZKÖY TEKİRDAĞ|MAINSTREET=47.|HOUSENUMBER=2|HOUSENUMBER.SUFFIX=b|FLOOR=27|UNIT=27|
+ MİMARSİNAN MAH. MİMAR SİNAN 1.CAD. Cad. NO :20_ Kat:07 Daire: 07 PK:19100 MERKEZ ÇORUM|MAINSTREET=mimar sinan 1.|HOUSENUMBER=20|FLOOR=07|UNIT=07|UNDEFINED=NULL|ZIP=19100
+DENİZ MAH. MEHMET KÖNTE Cad. No:17 F   F   İNCİ SİTESİ Daire: 6 PK:33290 MEZİTLİ MERSİN|HOUSENUMBER.SUFFIX=f f|HOUSENUMBER=17 
+DENİZKÖŞKLER MAH. ERSOY Cad. No:21/4   D BLK. Daire: 4  AVCILAR İSTANBUL|HOUSENUMBER=21|HOUSENUMBER.SUFFIX=4|BLOCK=d|UNIT=4
+DURALİ ALIÇ MAH. 963 Cad. No:2 D Kat:19 Daire: 4  MAMAK ANKARA|CITY=ankara|TOWN=mamak|HOUSENUMBER=2|FLOOR=19|UNIT=4|UNDEFINED=NULL|HOUSENUMBER.SUFFIX=d
+B PAZARI MAH. TATAR SOK. SALKIM SİT A BLKO NO: 5  18100 MERKEZ/ÇANKIRI|QUARTER=b pazarı|STREET=tatar|RESIDENTIAL=salkım|BLOCK=a|HOUSENUMBER=5|ZIP=18100|TOWN=merkez|CITY=çankırı
+ULUS PARKI KARŞISI ARAS AP CANAN SOK KAT :2 DR:6 ULUS 34340 BEŞİKTAŞ İSTANBUL|APARTMENT=aras
+beyaz sok senlik mahallesi blok:2a no:5 kecioren ankara|BLOCK=2a|HOUSENUMBER=5|UNDEFINED=null
+KARADENIZ MH.1171/2 SK.NO=1  G.OSMANPASA|TOWN=gaziosmanpaşa
+beyaz sok senlik mahallesi blok:2-a no:5 kecioren ankara|BLOCK=2|HOUSENUMBER=5|UNDEFINED=null
+ANAYI AŞ.SİRKECİ HAMIDIYE CAD.ALTINHAN K:3NO:100 .|HOUSENUMBER=100|FLOOR=3|MAINSTREET=sirkeci hamıdıye
+gul baharmh avnidilligilsok no:24ist|CITY=istanbul|QUARTER=gul bahar|STREET=avnidilligil
+Kazımkarabekir Mh. 1/8E Sk. 34203 Bağcılar İstanbul|STREET=1/8e
+1657 SOKNO 6 K 3 D 3 BAYRAKLIIZMIR|CITY=izmir|HOUSENUMBER=6|FLOOR=3|UNIT=3|STREET=1657
+BAHÇELİEVLER MAH.ADNAN KAHVECİ BUL.MANOLYA APT.NO.43/8 BAHÇELİEVLER İSTANBUL|HOUSENUMBER=43|RESIDENTIAL=NULL
+organize sanayi bolgesi samsun|ORGANISEDINDUSTRIAL=osb
+mezarlik ARKASI SOK. ÇAYIRBAŞI SARIYER İSTANBUL|CEMETERY=NULL|STREET=mezarlik arkası
+deneme subesi|BRANCH=deneme
+iş bankası pangaltı şubesi pangaltı ist|BANK=iş bankası|BRANCH=pangaltı
+Çorumi Mustafa Bey Çarşısı Cami Tekirdağ
+Modoko Mobilyacılar Sitesi A1 Kapısı|GATE=a1
+mezar yolusok Istanbul |STREET=mezar yolu
+ 71.ADA GARDENYA 6 / 4 D 20 ATAŞEHİR K.BAKKALKÖY TURKIYE|ADA=71.|HOUSENUMBER=NULL|UNIT=20|RESIDENTIAL=gardenya 6|BLOCK=4|UNIT=20
+TOKİ 3 SK NO:2/11 ERCİŞ VAN|RESIDENTIAL=toki|STREET=3|HOUSENUMBER=2
+YAVUZ SELİM İ.Ö.OKULU.****  POLATLI ANKARA|ELEMENTARYSCHOOL=yavuz selim
+deneme AİLE S. MRK|FAMILYHEALTHCENTER=deneme
+17689 ADA YARDIMCI ST. B/5 BL. ORKİDE APT. D:4 ERYAMAN TURKIYE|ADA=17689|BLOCK=b/5|APARTMENT=orkide|UNIT=4
+Carrefoursa Expres  Atakent Şubesi|MARKET=carrefoursa expres|BRANCH=atakent
+PTT Adliye Sarayı Şubesi seyhan adana
+Taşköprü Sanayi Sitesi Cami  samsun|MOSQUE=taşköprü sanayi sitesi
+ ALTINKENT 3.ADA|CITY=null|ADA=3. 
+ MEYDAN SOK.NO.19   İSTANBUL|STREET=meydan|HOUSENUMBER=19
+ESENKENT MH. BAHÇEŞEHİR  CD. 0535 255 22 92  40 16C/1  MERKEZ İSTANBUL|MAINSTREET=bahçeşehir 
+Dere Mh. 4. Sk.¬ 49100 Merkez Muş|CITY=muş
+ALTAY M. KC BLOKLARI 46471 ADAA BLK. D.24 ERYAMAN TURKIYE|QUARTER=altay|RESIDENTIAL=kc
+TÜNEL ŞANTİYESİ OKUL ARKASI SOK.  ÇAYIRBAŞI BOLU|STREET=okul arkası
+kılıçali paşa mah. tüfekçi salih so k.|STREET=tüfekçi salih
+ŞEHİT CENGİZ KARACA M 1050,SOK NO:312 DİKMEN 57000 DİKMEN - SİNOP|STREET=1050|QUARTER=şehit cengiz karaca
+ESKİ LONDRA ASFALTI PAK. APT.NO:17/3       BAHÇELİEVLER İSTANBUL|MOTORWAY=eski londra
+Yenimahalle mah.  23 Nİsan İlköğretim Okulu|ELEMENTARYSCHOOL=23 nisan
+General Yazgan So kak.No:8-b Taksim-Beyoğlu ASMALIME Beyoğlu İstanbul|STREET=general yazgan
+Müftü Mh. Yukarı Sk. No: 22 Kat: 2, Bağlık, Karadeniz Ereğli|CITY=zonguldak|TOWN=ereğli
+beykoz, cumhuriyet caddesi no:123|TOWN=beykoz
+Cami Avlusu Sk. No:10 D:15 \Fatih 34087 İstanbul|STREET=cami avlusu|SACRED=NULL 
+ANKARA SANAYİ ODASI|CHAMBEROFINDUSTRY=ankara
+an ka ra|CITY=ankara
+ 1.ETAP HARMADAKENT PARK EVLERI YAHYAKAPTAN MH. MA|RESIDENTIAL=harmadakent
+ ALTINKENT 3.ADA|CITY=NULL|ADA=3. 
+ 27 AV MARCELLIN BERTHELOT 69520 GRI GNY TURKIYE|CITY=null|gri agri oluyordu
+ KALICI KONUTLARI 7. ADA  2 DA:7 KARŞIYAKA TURKIYE|ADA=7.|UNIT=7|HOUSENUMBER=2
+ OSTİM BAĞDAT CAD 16982 ADA N:365 TURKIYE|ADA=16982|HOUSENUMBER=365
+ ESENLER MH. BARIŞKENT 3 ADA D BL. DA:15 TURKIYE|ADA=3|BLOCK=D|UNIT=15|QUARTER=esenler
+46 ADA KARDELEN NO:1/3 DA:14 ATAŞEHIR TURKIYE|ADA=46|TOWN=ataşehir|UNIT=14|
+SEYFETTİN SUCU S SK  NO:51 ŞANLIURFA MERKEZ|STREET=seyfettin sucu s
+akhisar manisa|TOWN=akhisar|CITY=manisa|aksihar hem ilce hem il. Iki ilden birini silen rutin buna dikkat etmeli
+AKKOÇ BUTİK HOTEL=HOTEL=akkoç
+ŞHT ÜSTĞ M ALİ DEMİR İÖO|ELEMENTARYSCHOOL=m ali demir
+134 c blok|MAINSTREET=null|BLOCK=c
+BASKURT S 40 - 1 CIHANGIR ISTANBUL|STREET=baskurt|HOUSENUMBER=40
+burger king NO:39 KAT:2  Beyoğlu İstanbul|FASTFOOD=burger king|HOUSENUMBER=39|FLOOR=2|TOWN=beyoğlu|CITY=istanbul
+BÜYÜK CAMİİ CAD. N O : 13/1 İSMET PAŞ A MAH. MERKEZ ŞIRNAK    73000   MERKEZ ŞIRNAK TÜRKİYE|HOUSENUMBER=13
+KARADENİZ TEKNİK Ü. KANUNİ KAMPÜSÜ  KIZ ÖĞRENCİ YURDU 2 BLK MERKEZ TRABZON|BLOCK=2
+atatürk İöğ|ELEMENTARYSCHOOL=atatürk
+D.H.M.I.ESENBOGA HAVALIMANICUBUK -ANKARA|AIRPORT=d. h. m. ı. esenboga
+ABBAS AĞA MH.JANDARMA MEKTEBİ SK.BAYSUN 29/18 . 34000 BEŞİKTAŞ - İSTANBUL|HOUSENUMBER=29
+ERZURUM CAD. KORAY AYDIN AP TORTUM|APARTMENT=koray aydın
+zümrütler mah yol 5 sok yeşiltepe sitesi c1 blk. maltepe istanbul|STREET=yol 5
+ 23 NİSAN MH ÜNİVERSİTE BULV 217 CD SEFER 28 . 27000 ŞAHİNBEY - GAZİANTEP|MAINSTREET=217|BOULEVARD=üniversite
+Saraybosna Cd.si 25100 Yakutiye Erzurum|MAINSTREET=saraybosna|UNDEFINED=NULL
+Karavezir Mh. M. Galip Uysal Cd. 50900 Gülşehir Nevşehir|QUARTER=karavezir|MAINSTREET=m. galip uysal|ZIP=50900|CITY=nevşehir|TOWN=gülşehir
+Bostancık Mh. 1589. Sk. No:18 06320 Mamak Ankara|QUARTER=bostancık|STREET=1589.|HOUSENUMBER=18|ZIP=06320|TOWN=mamak|CITY=ankara
+CEYDARDA TEKSTİL SAN.TİC.LTD.ŞT VELİAHMET MH. İNÖNÜ CD.  NO:91 DA:3   İZMİT/KOCAELİ|COMPANY=ceydarda
+YAPI KREDİ BANKASI A.Ş. Ş.ALİ GAFFAR OKKAN CD. NO:14    HENDEK/SAKARYA|BANK=yapı kredi|MAINSTREET=ş. ali gaffar okkan|HOUSENUMBER=14|TOWN=hendek|CITY=sakarya
+EVREN MAH KOCMAN CAD NO:36 GARANTİ BANKASI GENEL MÜD. GÜNEŞLİ - BEŞİKTAŞ İSTANBUL|DEPARTMENT=garanti
+Düzce Adliyesi Kat:Zemin|FLOOR=zemin|COURT=düzce
+ADLİYE BİNASI CUMHURİYET BAŞSAVCILIĞI . . . 20000 DENİZLİ - DENİZLİ|ZIP=20000|CITY=denizli|COURT=denizli|PROSECUTIONOFFICE=cumhuriyet
+23 Nİsan İlköğretim Okulu Yenimahalle mah. Kızıltepe Mardin|ELEMENTARYSCHOOL=23 nisan
+SARAYKENT mah 75inci  YIL BULVARI|HOUSENUMBER=NULL|QUARTER=saraykent|BOULEVARD=75. yıl
+Rektorluk Binasi 4. Kat 402 Bilkent Üniversitesi - Merkez Kampüs ANKARA|BUILDING=rektorluk|FLOOR=4.|HOUSENUMBER=402
+PALAMUT MEVKİ 33 ADA  N:6 48100 TURGUTREİS BODRUM|ADA=33|TOWN=bodrum|QUARTER=palamut
+merkez mh 25 parto urfa|HOUSENUMBER=25
+Şanlıurfa Yolu Üzeri 1. km Honda Plaza Altı BAĞLAR DİYARBAKIR|COMMERCIALCOMPLEX=honda|DISTANCE=1
+AKKÖY FINDIKÇUKURU MaH  sitesi  8 . 52000 CAMAŞ - ORDU|RESIDENTIAL=akköy fındıkçukuru mah.|QUARTER=akköy fındıkçukuru|HOUSENUMBER=8|ZIP=52000|CITY=ordu|TOWN=çamaş
+Türkiye İş Bankası-Pangaltı Şb. Halaskargazi Mh. 34371 Şişli İstanbul|BRANCH=pangaltı
+gülbahar mah avni dilligilsokak 24a6  istanbul|STREET=avni dilligil
+KALE MAH. SAN. SİT. B BLOK NO:2 PK:8200 ARHAVİ ARTVİN|ZIP=8200
+Yeni Mh. 25 Aralık Cd. 40300 Kaman Kırşehir|MAINSTREET=25 aralık 
+CEYHAN YOLU ÜZERİ 7. KM. pk 87 YÜREĞİR 01321 ADANA|HOUSENUMBER=NULL|DISTANCE=7|POBOX=87
+Ümitköy Mahalle  3. Caddesi  11/C   Çayyolu/Ümitköy  Yenimahalle  Ankara|MAINSTREET=3.|HOUSENUMBER=11
+4. levent istanbul|DISTRICT=4. levent
+d.bakir|CITY=diyarbakır
+19 MAYIS  samsun|TOWN=ondokuzmayıs
+ADANA ÇUKUROVA NÜFUS MÜDÜRLÜĞÜ|REGISTRATIONOFFICE=çukurova
+Avea-Korupark AVM|SHOPINGCENTER=avea-korupark
+ ZİYA GÖKALP Y.İ.B.O. . . 07350 KUMLUCA - ANTALYA|ELEMENTARYSCHOOL=ziya gökalp
+Emniyet Müdürlüğü Lojmanları Yenimahalle mah. Merkez Ağrı|RESIDENTIAL=emniyet müdürlüğü
+İkitelli OSB Mah. Tormak N Blok Sok. Dış Kapı No:11 İç Kapı No:11 Başakşehir|HOUSENUMBER=11|UNIT=11
+Mihalıççık Kaymakamlığı İlçe Özel İdare Müdürlüğü Camikebir mah. 26900 Mihalıççık Eskişehir|
+askeri hastanesi terme|MILITARYHOSPITAL=terme
+Emniyet Müdürlüğü Lojmanları Yenimahalle mah. Merkez Ağrı|RESIDENTIAL=emniyet müdürlüğü
+ANKARA BÖLGE İDARİ MAHKEMESİ ANKARA BÖLGE İDARE MAHKEMESİ ŞENYUVA MAH.İDARİ İŞLER . . 06000 YENİMAHALLE - ANKARA|JURISDICTIONCOURT=ankara
+ticaret meslek lisesi . . 12000 BİNGÖL - BİNGÖL|VOCATIONALHIGHSCHOOL=bingöl
+Milli Eğitim sıtesı kars|RESIDENTIAL=milli eğitim
+Karşı YAKA/IZMIR|TOWN=karşıyaka|CITY=izmir
+gulbahar mahavnidilligil sok ist|QUARTER=gulbahar
+ TC.ZİRAAT BANKASI AŞ.SİVAS MERKEZ ŞUBE Sivas Merkez Sivas|BANK=ziraat
+19 mayis samsun|TOWN=ondokuzmayıs
+balkar bld golbasi adiyaman|BELDE=balkar
+Bostancık Mh. 1589. Sk. No:18 06320 Mamak Ankara|ZIP=06320|HOUSENUMBER=18|STREET=1589.|QUARTER=bostancık
+YAPI KREDİ BANKASI A.Ş. Ş.ALİ GAFFAR OKKAN CD. NO:14    HENDEK/SAKARYA|MAINSTREET=ş. ali gaffar okkan
+t.c ziraat bankasi|BANK=ziraat
+PTT EVLERI 7 SOK NO 19MAMAK ANKARA|RESIDENTIAL=ptt|complex taninmiyor.                                                        
+İZMİT SOSYAL S.S.K BÖLGE MÜDÜRLÜĞÜ SİGOTALAR    MERKEZ/KOCAELİ|STREET=NULL
+sogrota aracilik hizmetleri|COMPANY=sogrota
+ÇETİN GROUP     ÇERKEZKÖY/TEKİRDAĞ|COMPANY=çetin
+OYAK RENAULT A.Ş. ORGANİZE SANAYİ BÖLGESİ     NİLÜFER/BURSA|COMPANY=oyak renault 
+AKRON TEMPO İLETİŞİM ORG SAN NO: BİLA    MERKEZ/AFYON|COMPANY=akron tempo
+FATİH MH. BİLGİN ELKT. MÜCAHİTLER CD. NO:221/A    SEYHAN/ADANA|COMPANY=bilgin
+PEGASOS CLUB İNCEKUM KASABASI D400 CAD    ALANYA/ANTALYA|MAINSTREET=d 400
+D-369 Karayolu - D569|MOTORWAY=d-369
+İTÜ 63 Sitesi Darüşşafaka Mh. 34457 Sarıyer İstanbul|QUARTER=darüşşafaka
+beşiktaş  yıldız posta caddesi|TOWN=beşiktaş|MAINSTREET=yıldız posta
+çanakkale şehitler abidesi|MONUMENT=şehitler|CITY=çanakkale 
+Yeni Mh. Gazi Ahmet Muhtar Paşa Cd. 36270 Merkez Kars|MAINSTREET=gazi ahmet muhtar paşa|QUARTER=yeni|CITY=kars 
+madak ticaret sanyi ve limited s t i|COMPANY=madak
+YENİKÖY MAH. SİMİTÇİ SALİH SOK. NO:17 PK:34464 SARIYER İSTANBUL|POBOX:34464 
+100.YILCAD.5 M MİGROS K:1 NO:4 MERKEZ MURATPAŞA ANTALYA|QUARTER=NULL
+CEYDARDA TEKSTİL SAN.TİC.LTD.ŞT VELİAHMET MH. İNÖNÜ CD.  NO:91 DA:3   İZMİT/KOCAELİ|COMPANY=ceydarda
+SKT. AŞ.ORGANİZE SANAYİ BÖLGESİ YEŞİL CAD: NO:17    BURSA|COMPANY=skt.
+4 EYLÜL MHDİKİMEVİ CD N.6/2     MERKEZ/SİVAS|QUARTER=4 eylül|MAINSTREET=dikimevi
+gülbaharmah|QUARTER=gülbahar
+sisli ilcesi Mahmut Mah  mekoy kasabasi cem sokak istanbul|TOWN=sisli|COUNTY=mekoy
+ISTANBUL UNIVERSITESI BEYAZIT|UNIVERSITY=istanbul
+TRAFİK TESCIL  VE DEN ETLEME BÜRO AMİRLİĞİ|CITY=null
+CAYKUR GENEL müdürlügüRIZE|CITY=rize|suffix + sehir
+afyon|CITY=afyonkarahisar
+ARNAVUTKÖY NO:1 KARTAL . 34000 KARTAL - İSTANBUL|TOWN=kartal
+YURT MH. NO25 32 SK.     SEYHAN/ADANA|QUARTER=yurt|HOUSENUMBER=25|STREET=32|TOWN=seyhan|CITY=adana
+mezarlik yolu hurriyet mh kartal ist|MOTORWAY=mezarlik
+Bostancık Mh. 1589. Sk. No:18 06320 Mamak Ankara|QUARTER=bostancık
+ERCİYES ÜNİVERSİTESİ|UNIVERSITY=erciyes 
+İSTANBUL CAD.|CITY=NULL|MAINSTREET=istanbul 
+cami yolu hurriyet mh kartal ist|MOTORWAY=cami
+ARNAVUTKÖY NO:1 KARTAL . 34000 KARTAL - İSTANBUL|TOWN=KARTAL|UNDEFINED=arnavutköy
+TURGUT ÖZALMAH YENİMAHALLEANKARA|QUARTER=turgut özal|TOWN=yenimahalle|CITY=ankara
+Ataköy 7. -8. Kısım Gazi Sitesi Ataköy 7-8-9-10 Mh.  Ataköy Bakırköy İstanbul|QUARTER=ataköy 7.-8., ataköy 7-8-9-10|RESIDENTIAL=gazi|SECTION=NULL
+İSTİKLAL CAD. DEMİRÖREN İSTİKLAL AVM 2.KAT K204 NOLU DÜKKAN|CITY=NULL|TOWN=NULL
+şili istanbul|TOWN=şişli
+BAĞLARBAŞI mh. FEYZULLAH cad. ARDA 38  /3 MALTEPE|UNDEFINED=arda
+ESKİCAMİ mh. KOLORDU cad. no:24869|ZIP=NULL
+40 CH.DU MÜRİER 30140 BOGARD   YURT DIŞI İLÇE YURT DIŞI İL|ZIP=NULL
+9. KISIM 621 D.11 ATAKÇY 34000 İSTANBUL - İSTANBUL|DISTRICT=ataköy
+erenköy|DISTRICT=erenköy
+MECIDIYEKOY - SISLI  GULBAHAR MAH HARMANYOLU UST SOK M 34394 ISTANBUL|TOWN=şişli|STREET=ust
+ÇARŞIMH.İSTİKLALCD.(NOTER YANI) N:4 K:2        KANDIRA KOCAELİ|QUARTER=çarşı|MAINSTREET=istiklal|HOUSENUMBER=4|FLOOR=2
+APA GİZ Plaza Kat: 21, Büyükdere Cad. No: 191, 34330|FLOOR=21|DISTRICT=NULL|MAINSTREET=büyükdere|COMMERCIALCOMPLEX=apa giz
+YEŞİLKENT MAH.	AKTİF SK.	9.ADA 12.BLOK	2 BAŞİSKELE	KOCAELİ|HOUSENUMBER=2|BLOCK=12.|ADA=9.|STREET=aktif
+Derisan İş Mrk. Sanayi Mh.|COMMERCIALCOMPLEX=derisan|QUARTER=sanayi
+ablok|BLOCK=a
+gulbahar mah No:24A ist|HOUSENUMBER=24
+Sevgi AVM bakirkoy ist|SHOPINGCENTER=sevgi
+Büyük Toptancılar Sitesi 26.Blok No:79  YÜREĞİR ADANA|SHOPINGCENTER=büyük
+KÖSEOĞLU EMLAK BANK EVLeri  C/5 BLK PINAR AP NO:7 İÇOFİS 21100 DİYARBAKIR - DİYARBAKIR|RESIDENTIAL=köseoğlu emlak bank
+2. Sokak  22/A   Halkalı  mah  Küçükçekmece  İstanbul|HOUSENUMBER=22|QUARTER=halkalı
+Bakırköy İmam Hatip Lisesi ve Anadolu İHL Kartaltepe Mh. 34144 Kartaltepe Bakırköy İstanbul|IMAMHATIMSCHOOL=bakırköy
+BUĞUR KÖYÜ YUKARI İNCİRLİ MEZRASI NO: 6 HİLVAN ŞANLIURFA|CITY=şanlıurfa|TOWN=hilvan|VILLAGE=buğur|HAMLET=yukarı incirli|HOUSENUMBER=6
+Değirmendere Köyü Yolu|MOTORWAY=değirmendere
+Selamet Çıkmazı Sok. Gizem Apt. No.3/1 Küçükyalı     Altıntepe   MALTEPE İSTANBUL|UNDEFINED=altıntepe
+İKİTELLİ ORG.SAN.BÖL.  CAN SİTESİ S BLOK NO:1/1 BODRUM KAT İKİTELLİ BAŞAKŞEHİR İSTANBUL TÜRKİYE|BLOCK=s|ORGANISEDINDUSTRIAL=ikitelli
+MASİS GIDA VE KİMYA END DIŞ TİC LTD ŞTİ ORTA MAH. ÇEVRE YOLU CAD. N 27 D 29 İSTANBUL|COMPANY=masis
+NEŞE NUROL EVLERİ KİRAZLI BAHÇE sitesi  A1 DAİRE 2 TARABYA SARIYER İstanbul|HOUSENUMBER=NULL|UNIT=2
+Ağaoğlu My World Diamond Ataşehir Istanbul|RESIDENTIAL=ağaoğlu my world diamond
+Grup Kent Sitesi Altınkum Mh. 35930 Çeşme İzmir|RESIDENTIAL=grup kent
+FATİH ADLİYESİ ADNANMENDERES BUL.VATAN C NO:NO49K2 FATİH . 34000 FATİH - İSTANBUL|MAINSTREET=vatan|HOUSENUMBER=49|FLOOR=2
+finansbank ataturk cd. subesi ist|MAINSTREET=ataturk|BRANCH=ataturk cad.
+ŞEHREKÜSTÜ MAH. ÇEVRE YOLU CAD. ERSEL YAPI KOOP SİT. C BLOK NO:4 D:4 DEMİRCİ MANİSA|MAINSTREET=çevre yolu|RESIDENTIAL=ersel     
+ORGANİZE SANAYİ BÖLGESİ S.DEMİREL BULVARI NO:8 YÜREĞİR ADANA|BOULEVARD=s. demirel
+LİFUNG MÜM VE PAZARLAMA LTD ŞTİ.   ESENLER İSTANBUL|COMPANY=lifung|COMPANY.SUFFIX=müm ve pazarlama ltd şti.
+Uludağ Üniversitesi  Rektörlüğü Özlüce Mah. 16285 Nilüfer Bursa|POI=NULL|DEPARTMENT=uludağ ünv.|QUARTER=özlüce|TOWN=nilüfer|CITY=bursa
+YASEMİN PARK SİTESİ 2D BLOK KAT:8/18 DEMİRTAŞ OSMANGAZİ Bursa|BLOCK=2d
+BURSA MODERN KEMER REZIDINS 1B KAT 10 D:22 DEMIRTAŞ DEMİRTAŞ OSMANGAZİ Bursa|FLOOR=10|UNIT=22|HOUSENUMBER=1
+ATAEVLER NİLÜFER HATUN CD ANITSAL SİTESİ PLATİN BLOK D:2 ATAEVLER NİLÜFER Bursa|TOWN=nilüfer|MAINSTREET=ataevler nilüfer hatun
+1064-3 SK NO:13 TORBALI İZMİR|STREET=1064-3
+Toprak Yol Çk.|DEADEND=toprak yol
+213sk ist|STREET=213	
+GÜVENEVLER MH. GÜVENLİK CD. NO103 Çankaya Ankara.|HOUSENUMBER=103	
+YESILMAH636SOKN17|QUARTER=yeşil|STREET=636|HOUSENUMBER=17
+Karaca sok. öziş blokları C1 Zümrütevler Maltepe|UNDEFINED=c1|DISTRICT=zümrütevler
+KOZAN ORGANİZE SANAYİ BÖLGESİ  125 ada 8 parsel  aas. cadde adsa. cad  KOZAN ADANA|ADA=125|PARCEL=8
+KADINLAR DENIZI MH. OTEL AYMAN NO:62 KADINLAR DENIZI - KUŞADASI AYDIN|LODGING=ayman
+AFET EVLERİ SİTESİ 2. sok  125 nolu ada ceyhan adana|ADA=125
+AFET EVLERİ SİTESİ 1004 ADA C6 BL. NO:1 K:1 . 01960 CEYHAN - ADANA|BLOCK=c6|ADA=1004 
+SEYHAN 2.BÖLGE ZEYTİNLİ KÖYÜ 5.PAFTA 945 PARSEL SEYHAN ADANA|PAFTA=5.
+DEVLET SU İŞLERİ 67 ŞUBE MÜD  MERKEZ/MERSİN  İÇEL
+ŞAİR NİGAR MAH. ASMANBEY CAD.  BLOK_NO:A  APARTMAN_NO:40 DAIRE_NO:1  ŞİŞLİ ŞİŞLİ İSTANBUL|MAINSTREET=asmanbey
+ÖMERLİ CAD.  BLOK NO:K BURAK APT.  APT_NO:10  ERDEMLİ ERDEMLİ İÇEL|MAINSTREET=ömerli
+gulbahar mah no 4  4.KAT HUKUK BİRİMİ REŞADİYE CAD. SİRKECİ 34112 EMİNÖNÜ İSTANBUL|FLOOR=4.
+McDonald's besiktas ist|RESTAURANT=mcdonald's
+g. o. p. mahallesi 374. sokak no 4 06830 gölbaşı ankara|QUARTER=g. o. p.
+406 SK. NO:2 D:1/A  3.SANAYİ SİTESİ BORNOVA İZMİR|UNIT=1|UNIT.SUFFIX=a
+1064-3 SK NO:13 TORBALI İZMİR|STREET=1064-3
+1787 SK. NO:68 D KARŞIYAKA İZMİR|HOUSENUMBER=68|HOUSENUMBER.SUFFIX=D|STREET=1787
+1787 SK. NO:68/D KARŞIYAKA İZMİR|HOUSENUMBER=68|HOUSENUMBER.SUFFIX=D|STREET=1787
+SELAMİ ALİ MAH.BABACAN SOKAKZİYABEY APT.KAT:3     ÜSKÜDAR İSTANBUL|STREET=babacan
+SAGLIK ECZANESI 2.TASOCAGI CD.APT:2 DAIRE:001 MECIDIYEKOY 00	ISTANBUL|MAINSTREET=2. tasocagi|UNIT=001
+KEMAL TURKLER MAH SUMER CAD 12 C BLOK D 2 SARıGAZI UMRANIYE|HOUSENUMBER=12|BLOCK=c|UNIT=2 
+AŞAĞI EGLENCE MENDİL SK 36/M ETLİK KEÇİÖREN ANKARA|HOUSENUMBER=36|HOUSENUMBER.SUFFIX=m|QUARTER=NULL
+AŞAĞI EGLENCE MENDİL SK 36/C ETLİK KEÇİÖREN ANKARA|HOUSENUMBER=36|HOUSENUMBER.SUFFIX=c|MAINSTREET=NULL
+Buğday Pazarı mah. Atatürk Blv.   38/L  Simit Sarayı Karşısı  Çankırı ( Merkez ) Çankırı|HOUSENUMBER.SUFFIX=l
+CUMHURİYET CAD. BABAİL SK. KAPTANHAN NO 2 KAT 5 HARBİYE 34367 ŞİŞLİ İSTANBUL|HOUSENUMBER=2|FLOOR=5|UNDEFINED=kaptanhan
+kent plus a blok atasehir ist|BLOCK=a
+xyz elekrik san ltd sti|COMPANY=xyz
+PROF DR.SELAHATTİN YAZICI OĞLU CD. İNKA 3 APT.DEDEMAN OTELİ YANI FİNAL DERS . 21000 DİYARBAKIR - DİYARBAKIR|HOUSENUMBER=NULL|APARTMENT=inka 3          
+ZAFER ELEKTRİK İNŞAAT TAAHHÜT SANAYİ TİCARET VE PAZARLAMA LTD. ŞTİ.|COMPANY=zafer
+İKİTELLİ O.S.B.TRİKO CENTER SİTESİ 9M BLOK NO:502/A  BAŞAKŞEHİR İSTANBUL TÜRKİYE|ORGANISEDINDUSTRIAL=ikitelli
+İKİTELLİ O.S.B.  9 M BLOK NO:502/A  BAŞAKŞEHİR İSTANBUL TÜRKİYE|BLOCK=9 M
+ANADOLU HİSARI MAHALLESİ  PAPATYA SOKAĞI KAT NO:2  DAİRE NO:6  .   BEYKOZ  İSTANBUL|FLOOR=2
+Hisarüstü ISTANBUL|DISTRICT=hisarüstü
+3301 - SAN. SİT. ŞB YENİ SANAYİ SİTESİ 8. BLOK NO: 20      32200 MERKEZ ISPARTA|RESIDENTIAL=NULL|BLOCK=8.|HOUSENUMBER=20
+NESLİ MAH. ÜST ZEYTİNLİK MERTEVLER SİTESİ A-3  KAT:1 NO:2 HASSA HATAY TÜRKİYE|CITY=hatay|FLOOR=1|HOUSENUMBER=2   
+armanlı sitesi yeniköy d blok daire:12 istanbul|BLOCK=d|UNIT=12|RESIDENTIAL=armanlı
+Merkez Mah. Kavak Sok. No39 Yenibosna|DISTRICT=yenibosna
+AKÇABURGAZ MEVKİİ ALKOOP C/4 BLOK NO.5-6 BÜYÜKÇEKMECE   İSTANBUL|HOUSENUMBER=5|MAINSTREET=NULL|HOUSENUMBER=5|BLOCK=C/4
+BALIK PAZARI NEVIZADE SOKAK.NO:10 BEYO GLU ISTAN BUL|STREET=nevızade
+TOKİ KONUTLARI  K1 BLOK KAT 3 DAİRE 12  MERKEZ BAYBURT|BLOCK=k1
+kazancı yokuşu kardeşler apt:29-7 FINDIKLI-BEYOĞLU Beyoğlu İstanbul|HOUSENUMBER=29|APARTMENT=kardeşler
+b 8 blok kat 5 daire 22 Akçakoca Konutları KOCAELI|BLOCK=b 8|FLOOR=5|UNIT=22|RESIDENTIAL=akçakoca
+32.CAD.SEYMEN SELAY EVLERİ 16/3 C BLOK 100 YIL       ÇANKAYA ANKARA|BLOCK=c
+Rumeli Fener Yolu  SARIYER 34450|MOTORWAY=rumeli fener
+k yali İSTANBUL|DISTRICT=küçükyalı
+SELAMET sk GIZEM APT. NO11    kucuk yali  İSTANBUL|DISTRICT=küçükyalı
+KIRKLARELI OZEL BASARI  DERSHANESI KARA MAH|CITY=kırklareli|il yok ama il adresin icinde geciyor olabilir.
+SEYDİŞEHİR KONYA NO:29/3 204 SK HACI SEYİT ALİ MAH|HOUSENUMBER=29|STREET=204|CITY=konya
+MERKEZ YALOVA NO:13/10 2  SK GAZİ OSMAN PAŞA MAH|CITY=yalova|STREET=2|HOUSENUMBER=13|STREET=2|QUARTER=gazi osman paşa
+ÜRGEN PAŞA MAH MERKEZ 41 SK HATAY NO:9/1|HOUSENUMBER=9|CITY=hatay
+KARDELEN MH 17. CD 2099 SK G A4 NO26 BATIKENT ANKARA|HOUSENUMBER=26
+*BAĞLAR CD ÜNAL SİTESİ C BLOK N:204 D:2 YÜZÜNCÜYIL MH 06700 ANKARA / ÇANKAYA|BLOCK=c|RESIDENTIAL=ünal|MAINSTREET=bağlar|BLOCK=C|HOUSENUMBER=204|UNIT=2
+s. kamil gaziantep|TOWN=şehitkamil
+NATOYOLU MUTLU MAH.222.SOKAKNO:36  AKDERE/ANKARA|MOTORWAY=nato|HOUSENUMBER=36
+SANCAK MAH. 571 CAD. (ESKİ 15 CAD.)  ORAN Çankaya Ankara 8101|CITY=ankara|city en sonda olmayabilir
+Mezarlık Yolu Sk.  Hürriyet Mh. Hürriyet Kartal İstanbul|STREET=mezarlık yolu 
+FEVZİÇAKMAK MAHAL.. NO:92-A YALOVA YALOVA - YALOVA|QUARTER=fevziçakmak|HOUSENUMBER=92         
+YAVUZ SELİM İ.Ö.O. NO:. MERKEZ . 71000 KIRIKKALE - KIRIKKALE|ELEMENTARYSCHOOL=yavuz selim          
+kadioy istanbul|TOWN=kadıköy
+30/7D3 Sk.  İnönü Mh. İnönü Bağcılar İstanbul|UNIT=NULL|STREET=30/7 D 3
+CUMHURİYET CAD KAHAN 16/6 ELMADAĞ Şişli İstanbul|HOUSENUMBER=16      
+İSTİKLAL CAD. NO:112-B KAT:3 BEYOĞLU Seçiniz İstanbul Seçiniz İstanbul|TOWN=beyoğlu  
+DILERBANK A.S TERSANE CAD. DILER HAN NO:96 KAT:8 KARAKOY-IST ISTANBUL|CITY=istanbul|DISTRICT=karaköy 
+izmit|TOWN=izmit|CITY=kocaeli
+ISTIKLAL CADDESI 53-1  İSTİKLAL- Beyoğlu İstanbul|DISTRICT=istiklal 
+İSTİKLAL CAD. NO:56 BEYOĞLU NOT: YUNANİSTAN KONSOLOSLUĞU YANI İSTİKL AL-BEYOĞLU Beyoğlu İstanbul|MAINSTREET=istiklal
+ana çesmesi sokak|STREET=ana çesmesi
+molla bayırı sokak|STREET=molla bayırı
+Asmalı Mescit Mahl. Sofyalı Sokak No:9 Beyoglu/Istanbul Beyoğlu İstanbul|QUARTER=asmalı mescit
+Cumhuriyet Cad. 89/91-21 Beyoğlu  İstanbul|HOUSENUMBER=89|HOUSENUMBER.SUFFIX=91 21
+Mebusan Yokuş. No:22 -BE YOĞLU Beyoğlu İstanbul|TOWN=beyoğlu
+İvedik Org.San.Blg. Arı San.Sitesi 1.Etap 634.Sk.No:47-49 06370 Yenimahalle|INDUSTRIAL=arı|STREET=634.|HOUSENUMBER=47
+HAMAL BAŞI CD. N:4/1-2 GALATASARAY/İstanbul|MAINSTREET=hamal başı|HOUSENUMBER=4
+ERKAN'I HARP SOKAK NO: 2 KAT 7 TUNEL BEYOGLU BEYOGLU ISTANBUL|STREET=erkan'i harp
+MECLİSİ MEBUSAN CAD. NO:131  KATI   İSTANBUL|CITY=istanbul|TOWN=NULL
+ARMUTALAN koyu. mezarlik ANKARA|VILLAGE=armutalan|CEMETERY=armutalan köyü
+ARMUTALAN MAH. CAMİ ANKARA|QUARTER=armutalan|MOSQUE=armutalan mah.
+Cumhuriyet Cad. 89/91-21 Beyoğlu İstanbul|HOUSENUMBER=89
+CAVUSPASA CD.HACI ALI SK.N/.3.D.4 B.EVLER|TOWN=bahçelievler
+874 SK N 25 ISCIEVLERI   IZMIR|DISTRICT=işçievleri
+Küçükbakkalköy, Çağlar Sok, Çobanzade Apt, No15/12, Ataşehir Ataşehir (Merkez) ist|TOWN=ataşehir
+ATATÜRK BULVARI NO:103/62 KIZILAY ankara|TOWN=çankaya|DISTRICT=kızılay
+GERMİR MAHALLESİ  . SOKAĞI KAT NO:10  DAİRE NO:29  KONAKLAR   MELİKGAZİ  KAYSERİ|QUARTER=germir|STREET=NULL
+ataturk i o o samsun|ELEMENTARYSCHOOL=ataturk
+DAĞKAPI S.O DİYARBAKIR|COTTAGEHOSPITAL=dağkapı
+kasap skç denizli|STREET=kasap
+TAŞKIŞLA CAD.   d:47  34437  İSTANBUL|UNIT=47
+Dr. Ali Oral Cd.|MAINSTREET=ali oral
+Piyade Okulu Lojmanları  Huri Yamut Apt Sk No:20 \Tuzla 34940 İstanbul|RESIDENTIAL=piyade okulu 
+SEKERHANE MAH YAYLA YOLU  NO/39/16|MOTORWAY=yayla
+MARULCU MH GEDIKAHMETPASA 1GECIT  NO.17   AFYON|JUNCTION=gedıkahmetpasa 1|HOUSENUMBER=17|gecit junction      
+Mahmut şevket Paşa M Mithatpaşa C Keser S	N 1/3	Okmeydanı|STREET=keser|MAINSTREET=mithatpaşa
+* 184 SK VARAN SİTESİ B BLOK K:1 D:1 MEZİTLİ(B)-YENİ MH MERSİN / MERKEZ|BLOCK=b
+ANKARA ORKİM KİM MAD.TİC. LTD OĞUZLAR MAH. 45. SOK NO:13\7 BALGAT-ANKARA|STREET=45.|HOUSENUMBER=13|HOUSENUMBER.SUFFIX=7|COMPANY=ankara orkim kim mad.
+*SÜLEYMAN  DEMİREL BLV CD MAVİ GÖL ST  B BL K:2 D:4 GÜZELYALI MH ADANA / SEYHAN|RESIDENTIAL=mavi göl|BLOCK=b|FLOOR=2|UNIT=4
+KARTEPE TAÇ YAPRAK KONUTLARI A4 BL D:11 ARSLANBEY(B)-BAŞARAN MH KOCAELİ|HOUSENUMBER=NULL|RESIDENTIAL=taç yaprak|UNIT=11|BLOCK=a4|TOWN=kartepe
+BAHÇELİEVLER MAH. İSMAİL PAŞA SK. LATİF APT. NO:12/2 HAZNEDAR/BAHÇELİEVLER - 34180 BAHÇELİEVLER İSTANBUL|HOUSENUMBER=12|HOUSENUMBER.SUFFIX=2
+Akabe Ticaret Mer.  Büyükdere Cad.	 8. Mağaza	ŞİŞLİ		İSTANBUL|MAINSTREET=büyükdere
+Meta İş San.Sit.	7.Blok No:2/4	 	İstanbul|INDUSTRIAL=meta iş|BLOCK=7.|HOUSENUMBER=2
+BESİSUYU SOKAK SK KÖŞEM APT N:10 K:1 D:2 BALKİRAZ MH ANKARA / MAMAK|STREET=besisuyu|HOUSENUMBER=10|FLOOR=1|UNIT=2	
+İbrahimağa Konutları 8A Blok Kat:6    Acıbadem    KADIKÖY İSTANBUL|HOUSENUMBER=NULL|BLOCK=8a|FLOOR=6
+İzmir İstanbul Anayolu üzeri İsak Çelebi Kasabası Girişi       SARUHANLI MANİSA|MOTORWAY=izmir istanbul|COUNTY=isak çelebi|MOTORWAY=izmir istanbul|COUNTY=isak çelebi
+ATAKÖY 7  MAH.   İSTANBUL|HOUSENUMBER=NULL
+ANADOLU MAH.DEVLET HAST.EVLERI B BLOK  DAIRE.3	ISPARTA|BLOCK=b|
+ERVEN MAH.FEVZİ ÇAKMAK CAD.İNTEK SİT. D BLOK NO:63 D:31 - GÜNEŞLİ 34212 BAĞCILAR İSTANBUL|BLOCK=d|HOUSENUMBER=63|UNIT=31|ZIP=34212|d blok daire ile karismasin
+MERKEZ MAH. E5 YANYOL CAD. ATEŞ SOK. EVRİM SİT. EVRİM2 APT. A2 BLOK D:5 34310 AVCILAR İSTANBUL|APARTMENT=evrim 2|BLOCK=a2|UNIT=5|ZIP=34310
+DENİZKÖŞKLER MAH.REŞİTPAŞA CAD. BÜLBÜL SOK.IŞIL APT.NO:14\9 -- AVCILAR - 34315 AVCILAR İSTANBUL|HOUSENUMBER=14|HOUSENUMBER.SUFFIX=9
+MİLLET CAD. KARAGÜL İŞ MERK. NO:84 KT:5/250 FINDIKZADE 34096 FATİH İSTANBUL|FLOOR=5|HOUSENUMBER=84|COMMERCIALCOMPLEX=karagül|MAINSTREET=millet
+FiRUZKoY MAH. 24/A2 D:2 42. SOK AVCILAR iSTANBUL|QUARTER=firuzkoy|STREET=42.|HOUSENUMBER=24|UNIT=2
+MECLİSİ MEBUSAN CAD.NO:147 AK SİGORTA KABATAŞ/FINDIKLI 34427 BEYOĞLU İSTANBUL|UNIT=NULL|INSURANCECOMPANY=ak
+mezar yolu sok|STREET=mezar yolu
+OSMANİYE MAH. KÖYALTI MESCİ SOK. KARDELEN APT. NO:10 D:8 34144 BAKIRKÖY İSTANBUL|REFERENCE=NULL
+KARŞISI MAH. SOME FLOWERS CAMAPAĞ SİT. SAM HAYDAR APT. ADA BLOK D:EV2 34570 SİLİVRİ İSTANBUL|REFERENCE=NULL
+MAXİ SÜPER MARKET KARŞISI SOME FLOWERS CAMAPAĞ SİT. SAM HAYDAR APT. ADA BLOK D:EV2 34570 SİLİVRİ İSTANBUL|MARKET=maxi
+DÜZCE KALICI KONUTLAR 2.BÖLGE 12.ADA G1 DAİRE:3 - 81010 MERKEZ DÜZCE|RESIDENTIAL=düzce                                                                                                                                                                                                                                        
+Güven Mahallesi Eski Londra Asfaltı M.Akif Kavşağı Yanı No:89 Kale AVM  GÜNGÖREN İSTANBUL|MOTORWAY=eski londra
+gulbahar mah şok  sıslı ıst|MARKET=şok
+CİHANGİR MAH. AKYOL CAD. UFUK APT. NO:4 D:5 PÜLTELAŞ 34433  İSTANBUL|MAINSTREET=akyol
+Abide-i Hürriyet Cad. Mecidiyeköy Yolu Sok.  No: 286     34381 ŞİŞLİ İSTANBUL|STREET=mecidiyeköy yolu
+Atatük Oto Sanayii Sitesi 2.Kısım Yol  Sok. No:11 Maslak İstanbul|INDUSTRIAL=atatük
+Sanayi Mah. Samsun Karayolu Üzeri Eski Boran Un Fabrikası Yeri       MERKEZ KIRIKKALE|FACTORY=eski boran un
+YESILMH.ATATURKBLV.|QUARTER=yeşil|BOULEVARD=atatürk|QUARTER=yeşil
+DOGANEVLER MAH TAVUKCUOGLU SKN 9  2 UMRANIYEI|STREET=tavukcuoglu|HOUSENUMBER=9|STREET=tavukcuoglu|sokak no bitisik
+MECIDIYEKOYISTANBUL|CITY=istanbul|DISTRICT=mecidiyeköy
+Değirmendere Çarşı İçi Sk.|STREET=değirmendere çarşı içi
+Şehit. p Üsteğmen. Mehmet Karakuzulu Cd.|MAINSTREET=mehmet karakuzulu
+Şht. Polis Üstğm. Mehmet Karakuzulu Cd.|MAINSTREET=mehmet karakuzulu
+Ataevler Mah. İzmiryolu Cad. 4. Km Acıelma Sok. No:3 Nilüfer Nilüfer Bursa|DISTANCE=4|HOUSENUMBER=3
+ada|CITY=adana
+SISLIISTANBUL|CITY=istanbul|TOWN=şişli
+BALİEKSİR|CITY=balıkesir|ozellestirilmis ve turkceye uyarlanmis edit distance 
+Fırat 2 Kpr.|JUNCTION=fırat 2
+İzmit Öğretmenevi Kozluk Mh. Tepecik İzmit Kocaeli|
+Abdurrahmangazi Mh. Sevenler Cd. Sinpaş Lagün Sitesi D26-1 Sancaktepe Istanbul Turkey|UNIT=26
+PANAYIR MAH.  OKUL YOLU CAD.  SELVİLİ SK. NO:55     YENİŞEHİR BURSA TÜRKİYE|MAINSTREET=okul yolu
+ULUCAMİ MAH.MEHMET AKİF ERSOY CAD. NO:35 19000 . OSMANCIK CORUM|ZIP=19000|HOUSENUMBER=35
+Esenyalı Polis Mrk. Esenyalı Mh. Fatih Pendik İstanbul|POLICEOFFICE=esenyalı
+As Burçaklar Sitesi Demirkapı Mh. Bağcılar Bağcılar İstanbul|RESIDENTIAL=as burçaklar
+Alyap 2 Sitesi Anadolu Hisarı Mh. Anadoluhisarı Beykoz İstanbul|HOUSENUMBER=NULL|RESIDENTIAL=alyap 2
+Anadolu Lisesi Cd.|MAINSTREET=anadolu lisesi
+abc Asfaltı ist|MOTORWAY=abc
+﻿abc bul. ist|BOULEVARD=abc
+SELİMPAŞA YENİ SANAYİ BÖLGESİ 6168 SOK. 647 ADA 9 PARSEL NO.13  SİLİVRİ  İSTANBUL|INDUSTRIAL=selimpaşa|HOUSENUMBER=13
+ORGANİZE SANAYİ BÖLGESİ, DEMİRCİLER SİTESİ, 14 BLOK  ikitelli İSTANBUL|BLOCK=14
+KİMYACILAR SİTESİ 364/1 SK NO:25/F Bornova    /İzmir|STREET=364/1|HOUSENUMBER=25|HOUSENUMBER=25		
+TEDAŞ MÜDÜRLÜĞÜ KARS Merkez     /Kars|CITY=kars
+1201-2 SOK izmir|STREET=1201-2
+23 CAD.  İVEDİK ORG.SAN OSTİM Yenimahalle Ankara|MAINSTREET=23|ORGANISEDINDUSTRIAL=ivedik
+YUNUS EMRE MAH.PROF.HÜSEYİN YILMAZ CAD. ANADOLU LİSESİ LOJM.NO 35 KAT 4 D 8 KINIKLI DENİZLİ|RESIDENTIAL=anadolu lisesi|FLOOR=4|HOUSENUMBER=35|UNIT=8
+ATATÜRK ORGANİZE SAN.BLG. .  NO: 35/A ÇİĞLİ ÇİĞLİ İZMİR|ORGANISEDINDUSTRIAL=atatürk|HOUSENUMBER=35
+﻿NİLÜFER İLÇE JANDARMA KOMUTANLIĞI.  NİLÜFER BURSA|MILITARYPOLICEHQ=nilüfer
+GÜRPINAR MAH. 2 CAD N:11  HASKÖY KÖYÜ KEÇİÖREN ANKARA|VILLAGE=hasköy|QUARTER=gürpınar|MAINSTREET=2|HOUSENUMBER=11
+İNCEDERE İLKÖĞRETİM OKULU İNCEDERE KÖYÜ  .  AKYAKA AKYAKA KARS|VILLAGE=incedere|ELEMENTARYSCHOOL=incedere
+SERHAT KOOP.SAYHA SİTESİ B BLOK NO:3 DAİRE 20 OSTİM MAH.  YENİMAHALLE ANKARA|RESIDENTIAL=sayha|HOUSENUMBER=3|COOPERATIVE=serhat|UNIT=20|HOUSENUMBER=3
+﻿YEŞİLADA YAPI KOOP.561 SOK.C-BLOK KAT:3 D:5 SERVERGAZİ DENİZLİ|MAINSTREET=NULL|BLOCK=c|STREET=561|FLOOR=3|UNIT=5
+ÇİĞDEM MAH.   HASAN ALİ YÜCEL ANADOLU ÖĞRETMEN LİSESİ BALGAT Çankaya Ankara|ANATOLIANHIGHSCHOOL=hasan ali yücel
+BALKİRAZ MH.GAZİLER SK. ÜÇLER APT.6A/4 ABİDİNPAŞA MAMAK ANKARA|HOUSENUMBER=6|APARTMENT=üçler
+GÜLTEPE MAH.ALTINGAZ PETROL   MELİKGAZİ KAYSERİ|GASSTATION=altıngaz
+Mahmut s Mah  sisli istanbul|QUARTER=mahmut s|S sokak degil
+Gulbahar mh. avni sok no20 sisli istanbul|HOUSENUMBER=20
+Gulbahar mh. avni sok no:20sisli istanbul|HOUSENUMBER=20
+ORTA MAH İBRAHİMAĞA CAD 2.EMİNTAŞ SAN SİTESİ NO.20/74 BAYRAMPAŞA İSTANBUL|HOUSENUMBER=20
+SAMANDRA, E.SULTAN MAH. SEKMEN CAD. SULTANLAR TİC. MERK.  N.13		KARTAL  İSTANBUL|HOUSENUMBER=13|COMMERCIALCOMPLEX=sultanlar|HOUSENUMBER=13
+AKCABURGAZ MEVKİİ HADIMKÖY KAVŞAĞI ALİMİNYUMCULAR SİT.C.3 BLOK 5-6		BÜYÜKÇEKMECE  İSTANBUL|QUARTER=akcaburgaz|BLOCK=c. 3|HOUSENUMBER=5
+YAKACIK YOLU UGUR CAD.19 KARTAL İSTANBUL|MAINSTREET=ugur|MOTORWAY=yakacık
+ESENYURT YOLU ÜZERİ, BAĞLAR  MEVKİİ  NO.66/68		AVCILAR   İSTANBUL|HOUSENUMBER=66
+OTLUKBELİ CAD. YOL SOK. MAYA RESİDANCE ETİLER Beşiktaş İstanbul 260137|HOUSENUMBER=NULL
+ATAKÖY 7-8-9-10. MAH. HANIMELİ ÇİÇEĞİ SK. 11 BAKIRKÖY İstanbul|HOUSENUMBER=11|QUARTER=7-8-9-10.|HOUSENUMBER=11|DISTRICT=ataköy|hatali house number
+avni sok  25-3|HOUSENUMBER=25
+Özel Yeni Nesil 2000 İÖO ıst|ELEMENTARYSCHOOL=özel yeni nesil 2000
+Petrol İs Mh. Elif Sk Fatma Hanım Apt K3 No:9 D:5 Rahmanlar \Kartal 34862 İstanbul|QUARTER=petrol is
+kuzey Petrol İs Mh. Elif Sk Fatma Hanım Apt K3 No:9 D:5 Rahmanlar \Kartal 34862 İstanbul|QUARTER=is|GASSTATION=kuzey
+Merkez Mh. Tem Avrupa Konutları E17 Blk. D:91 \Gaziosmanpaşa 34245 İstanbul|UNIT=91
+beyza camii zeytinli-mahallesi seyhan adana|MOSQUE=beyza
+ARMUTALAN koyu. İÖO ANKARA|VILLAGE=armutalan|ELEMENTARYSCHOOL=armutalan köyü
+cfb ticaret sanayi limited şirketi|COMPANY=cfb
+cfb tic sanayii ltd şti|COMPANY=cfb
+cfb tic san ltd şti|COMPANY=cfb
+gulbahar mah n:1 ist|HOUSENUMBER=1
+BELEDİYE EVLERİ MAH. TURGUT ÖZAL BULVARI SOK. ÇUKUROVA ADANA|QUARTER=belediye evleri                                                                                                                                                                                                         
+2.Organize Sanayi Bölgesi Havaalanı Yolu Üzeri 15.Km. MALATYA|MOTORWAY=havaalanı
+AKMERKEZ etiler istanbul|SHOPINGCENTER=akmerkez
+ODTU ankara|DISTRICT=odtü
+FABRİKALAR CAD. NO:22 34630	Sefaköy ist|HOUSENUMBER=22 
+ata cadd|MAINSTREET=ata
+urfa|CITY=şanlıurfa
+maras|CITY=kahramanmaraş
+içel|CITY=mersin
+istambul|CITY=istanbul
+İNÖNÜ MAH.ERİK SOK.   NO:13   - kucukcekmece İSTANBUL|TOWN=küçükçekmece
+ESENKENT MH. BAHÇEŞEHİR YOLU CD. 0535 255 22 92  40 16C/1  MERKEZ İSTANBUL|MAINSTREET=bahçeşehir yolu
+YENİ MAH. MEKTEP CAD. NO:3/C Acenleteler BİLECİK|HOUSENUMBER=3
+Abdurrahmangazi Mh. Sevenler Cd. Sinpaş Lagün Sitesi D26-1 Sancaktepe Istanbul Turkey|UNIT=26
+DENİZ MAH.KONYAALTI CAD.122 SOK. MUHAREM TANIR AP.NO:9 - 07050 MERKEZ ANTALYA|ZIP=07050|HOUSENUMBER=9|STREET=122
+Genç Osman Cd No:14 Habibler Eski Edirne Asfaltı Asfalt Boy Mah \Eyüp 34050 İstanbul|HOUSENUMBER=14
+ÇAMLICA MAH. SÜRMELİ KÜME EVLERI N0: 16 YOMRA TRABZON|HOUSENUMBER=16
+İlçe Jam K. Lığı Merkez Mh. İlçe Jam Kç Lığı Cd No:1 \Beykoz 34820    İstanbul|MILITARY=ilçe jam
+Yenimahalle Mh. Erkin Balaban Cd. Önder 2 Sitesi Iblok D:27 \Silivri 34570 İstanbul|HOUSENUMBER=NULL|sitenin numarasi ev numarasi olamaz.
+Kazakistan Caddeesi 3/A Emek/ ANKARA|MAINSTREET=kazakistan|HOUSENUMBER=3
+TERME ASKERLIK SUBESI TERME/ SAMSUN|RECRUITMENTOFFICE=terme	
+ESENTEPE MAH SAGLIK OCAGI YOLU BESTE SOK NO=4  KARABUK sa msun|QUARTER=esentepe|MOTORWAY=saglık ocagı|CITY=samsun	
+IYUKARI DİKMEN MH. 635 SK. PROCCEA İNŞ. MÜH. SİT. BİN 30 ORAN|HOUSENUMBER=30|bin ev numarasi 
+OYLUM OTEL  KAYABAL CD.İÇMELER MARMARİS. İÇMELER 48700 MARMARİS MUĞLA|LODGING=oylum
+SHELL SÖKE YOLU ÜZERİ TEPE YOLU MEVKİ  - 09400 KUŞADASI AYDIN|GASSTATION=shell	
+vakifbank terme samsun|BANK=vakifbank	
+BİRLİK MH 7.CD CD PEYNİRCİ AP ÇUKURCABİRLİK MH ANKARA / ÇANKAYA|QUARTER=birlik, çukurcabirlik|MAINSTREET=7.|adresde iki mahalle var. cadde ek iki adet
+ZİYA GÖKALP CAD.  ÇANKAYA NÜFUS MÜDÜRLÜĞÜ KIZILAY Çankaya Ankaraa|REGISTRATIONOFFICE=çankaya
+DÜNYA-1 SİTESİ C-9/2 BLOK NO:44 ÇİĞDEM MAH. ÇANKAYA 06530 ANKARA|BLOCK=c-9/2|HOUSENUMBER=44|kompleks bloklarin taninmasi
+KADINLAR DENIZI MH. OTEL AYMAN NO:62 KADINLAR DENIZI - KUŞADASI AYDIN|LODGING=ayman
+CUMHURİYET MAH.UYUM SİTESİ  MERKEZ SAKARYA |TOWN=NULL|CITY=sakarya
+Sanayi Cami Veysel Karani Mh. Sahipata Merkez Afyonkarahisar|MOSQUE=sanayi
+3. NOLU MERKEZ SAĞLIK OCAĞI AYDINPINAR 81010 MERKEZ  DÜZCE|COTTAGEHOSPITAL=3.|ZIP=81010
+ÜÇLER BELEDİYE BASKANLIGI HACI EYÜPLÜ MAH İPRAGAZ TÜP DOLUM YANI DENİZLİ|MUNICIPAL=üçler|QUARTER=hacı eyüplü
+Gulbahar mh. avni dilligil sok mecidiyekoy gayrettepe sisli levent istanbul|DISTRICT=levent, gayrettepe, mecidiyeköy|birden fazla semt
+xyz BAŞKANLI ĞI ist|DEPARTMENT=xyz		
+kartal cad n37 D 10FLORYA ist|HOUSENUMBER=37|UNIT=10
+besiktasist|CITY=istanbul|TOWN=beşiktaş		
+BUCAK MAH 66 NL SK ORDU|STREET=66
+ARPSUYU MH.605 SK.N.6/4 KaRaYAZIERZURUM|CITY=erzurum|TOWN=karayazı
+kavacik kavsagi istanbul|JUNCTION=kavacik
+FiRUZKoY MAH.AZzZ CAD.NO.24 B BLOK AVCILAR  iSTANBUL|BLOCK=b|TOWN=avcilar
+TOPSELVI MAH.E 5 YANYOL  NO.2 KARTAL                             	İSTANBUL|QUARTER=topselvı|HOUSENUMBER=2
+TÜRKOCAĞI CAD SÜREYYA BEY ÇARŞISI NO.7-2 CAĞALOĞLU EMİNÖNÜ İSTANBUL|HOUSENUMBER=7|HOUSENUMBER.SUFFIX=2
+*AFET EVLERİ MAH.ATAKENT SİT 29 SK 3.BLK NEHİR APT KAT:5 D:10  YÜREĞİR ADANA|APARTMENT=nehir|BLOCK=3.|blok ve apt
+*SÜLEYMAN  DEMİREL  BLV CD MAVİ GÖL ST MH ADANA / SEYHAN|QUARTER=mavi göl st
+KİRTTEPE AİLE SAĞLIĞI MERKEZİ . .  SEYHAN ADANA|FAMILYHEALTHCENTER=kirttepe
+ANKARA KOYU HAZILER KARPO AVM merkez|CITY=NULL|merkez ilcesinden sehir uretilemez                                                          
+SANAYİ SİT. . 4162231797 MERKEZ  MERKEZ ADIYAMAN|HOUSENUMBER=NULL|cok uzun numaralar kapi numarasi olamaz
+SERHAT KOOP.SAYHA SİTESİ B BLOK NO:3 DAİRE 20 OSTİM MAH.  YENİMAHALLE ANKARA|BLOCK=b|HOUSENUMBER=3
+ ................... CAMİALTI  ALTINYAYLA ALTINYAYLA BURDUR BURDUR......|CITY=burdur|cift sehir. ikinci sehirde nokta var
+YÜZYEDİNCİ CD BADEMLİ KÖYÜ ESKİ MUDANYA YOLU ŞAFAK MARKET YANI N:5 K:2 D:6 BURSA / MUDANYA|MARKET=şafak
+ÜÇLER BELEDİYESİ HACI EYÜPLÜ MAH İPRAGAZ TÜP DOLUM YANI DENİZLİ|MUNICIPAL=üçler|QUARTER=hacı eyüplü|belediye tesbiti
+T.C ŞEKER KURUMU ÇETİN EMEÇ BULVARI CD N:46 OĞUZLAR MH 06520 ANKARA /ÇANKAYA|BOULEVARD=çetin emeç|GOVERNMENT=t. c şeker|cadde bulvar ikisinden birisi secilisin. C" cadde degil. C kisaltma parcasi ise cadde degildir. 
+FiRUZKoY MAH.42. SOK 24/A2 D:2 AVCILAR iSTANBUL|QUARTER=firuzkoy|STREET=42.|HOUSENUMBER=24|UNIT=2| sokak numarasi ev numarasi olmamali sokak once
+YENİ ZİRAAT MAH. 13 Sok   20/A . YENİMAHALLE ANKARA|STREET=13|HOUSENUMBER=20|sokak ev numarasi olamaz
+HASBAHÇE SİT. A/3 BLOK K:1 D:2 BEYLİKDÜZÜ|BLOCK=a/3|ardisik suffix
+NO.24 2.daire zemin kat|UNIT=2.|FLOOR=zemin|kat sadece sayi olmayabilir
+GÜMÜŞSUYU CAD.LİTROS YOLU SiTE SK. NO.6/2 TOPKAPI		ZEYTİNBURNU   İSTANBUL|STREET=site|site suffix degil sokak ismi	
+60.Yıl ILK OGRETIM OKULUBOLU|CITY=bolu
+GAZİOSMANPAŞA Çankaya Ankara|DISTRICT=gaziosmanpaşa
+ÇİĞDEM MH.1550/1 CD.N.33/191 ORTADOĞU ÇAMLIK SİTESİ ÇANKAYA ANKARA|MAINSTREET=1550/1|HOUSENUMBER=33
+331SOKAKNO:55/6BUCAizmir|CITY=izmir|STREET=331|HOUSENUMBER=55|TOWN=buca
+100.YIL CAY FABRIKARIZE|CITY=rize|suffix +sehir
+KURTULUS CAD. NO 3 BİGACANAKKALE|CITY=çanakkale|sehir bitisik
+6346SK.N.12D.8 KARSIYAKAIZMIR|CITY=izmir|HOUSENUMBER=12|STREET=6346
+SUSAM SOKNO13 ULUSANKARA|STREET=susam|sokak suffix bitisik
+ŞEMSETTİN GÜNALTAY CD 3 YOL SK ERCİŞ AP 8/9 Kadıköy    /İstanbul|MAINSTREET=şemsettin günaltay|yol sokak
+cay sokn 5|HOUSENUMBER=5|sokak ve ev numarasi bitisik
+KALE MAH CUMHURİYET MEYDANI MERKEZ SAMSUN|SQUARE=cumhuriyet                                                                                                                                                                                 
+KUTLU MAH. 456/2  SK. 1 / 10 MAMAK ANKARA|STREET=456/2|sokak no ev numari olamaz
+CUMHURİYET MAH. TEVFİK FİKRET CAD. MODEKOM SİT. A2 BLOK D:3 09010 MERKEZ AYDIN|UNIT=3|BLOCK=a2|RESIDENTIAL=modekom
+UNCALI POLİS LOJMANLARI|RESIDENTIAL=uncalı polis|polis s->sokak degil
+BOĞAZAK YOLU NO:65 POSTA KUTUSU:53 AGROSER A.Ş. - 07500	SERİK	ANTALYA|POBOX=53
+SARIKAVAKSok|STREET=sarikavak
+7 CAD NO 31/10 DEMETEVLERANKARA|CITY=ankara 
+ESENLIK MH 7 SOK HICRET  APT2/5ANTAKYA HATAY|STREET=7          
+YERKESIK ILKOGRETIM  MUGLA|ELEMENTARYSCHOOL=yerkesik
+yenidoğanmah   ANTALYA|QUARTER=yenidoğan|mahalle suffix birlesmesi
+ata Anaokulu|DAYCARE=ata
+ULUSANKARA|CITY=ankara|sehir birlesik
+D.H.M.I. ESENBOGA HAVALIMANI CUBUK -ANKARA|AIRPORT=d. h. m. ı. esenboga|tek harfli kisaltmalar suffix olamaz.
+marmados sitesi cami mh. tuzla istanbul|QUARTER=cami|uclu suffix
+DILAN SOKAK N.10/3 BALCOVA IZM IR|CITY=izmir
+ATATURKMAH164SKNO2|HOUSENUMBER=2|STREET=164|QUARTER=atatürk|sayi iceren birlesik kelimelerin parcalanmasi
+UFUK SOK. YENİMAHALLEANKARA|TOWN=yenimahalle|ilce il kombinasyonlari
+ZÜMRÜTEVLER MAH. CÜNEYT SK. 102 / 5 MALTEPE İSTANBUL|HOUSENUMBER=102
+YESILEVLER MAH.  APTNO 9 ADANA|QUARTER=yesilevler|yesile
+kapalı cezaevı mudurlugueskısehır|CITY=eskişehir|
+SUSAM SOKNO13|STREET=susam|HOUSENUMBER=13|sok, no birlesik
+dıkmenankara|CITY=ankara|
+AKPINAR MAH. 1.ASKER SK. 4 / 1 OSMANGAZİ BURSA|STREET=1. asker|HOUSENUMBER=4
+ZEYTINLIK BELEDIYESIODEMIS/IZMIR|MUNICIPAL=zeytinlik|belediye bitisik
+RECEP KERMAN TIC. MES.LIS|VOCATIONALHIGHSCHOOL=recep kerman
+YENİCE MHA DR SADFIK AHMET KIRŞEHİ|QUARTER=yenice                                                     
+ESENBOGA HV.LIMANI BASMUDURLUGU-ANKARA|AIRPORT=esenboga
+UFUK SOK. YENİMAHALLEANKARA|TOWN=yenimahalle
+YEKA GIYIM KARABÜK|COMPANY=YEKA
+YURT MAH. YURT CAD. 71361 SOK. MÜZEYYEN ÖZCAN APT. NO:30 D:30 YURT ÇUKUROVA ADANA|MAINSTREET=yurt|QUARTER=yurt|HOUSENUMBER=30|UNIT=30   
+İSTİKLAL CAD.  NO:163 DA:17 34433   BEYOĞLU İSTANBUL TÜRKİYE|UNIT=17|HOUSENUMBER=163|ZIP=34433
+kazım md'lugu|DEPARTMENT=kazım
+YARBAY SEMSETTIN MH 3952 NO 30 TARSUS|CITY=mersin|ilceden il tamamlama
+rasimpasa mah kadikoy|CITY=istanbul|ilceden il tamamlama
+ABBASAĞA MAHM.UZUNCAOVA CD.SARAY LOJ. D:12 B6 BLOK 34000 BEŞİKTAŞ - İSTANBUL|QUARTER=abbasağa          
+TÜRKELİ  CD.  B-BLOK  D:3 NO:117/119 AKSARAY 34000 İSTANBUL - İSTANBUl|CITY=istanbul|DISTRICT=aksaray|BLOCK=b|MAINSTREET=türkeli|UNIT=3|HOUSENUMBER=117
+KIRECHANE SK.SUMER SITESI B BLOK D.24 SAHRAYICEDIT|DISTRICT=sahrayıcedıt|BLOCK=b|UNIT=24|STREET=kırechane|RESIDENTIAL=sumer
+nusaybn  mardin|CITY=mardin|TOWN=nusaybin|CITY=mardin 
+ARMUTALAN koyu. muhtarligi ANKARA|VILLAGE=armutalan|MUHTAR=armutalan köyü
+POLİMEKS İNSAAT A.Ş. ELMADAĞ, ASKER OCAĞI Cad, NO.15 ŞİŞLİ-İSTANBUL ELMADAĞ ŞİŞLİ İstanbul ŞİŞLİ İstanbul|MAINSTREET=elmadağ asker ocağı
+İlk yardım has. 8.kat 2.dahiliye Beyoğlu İstanbul
+kozyatagi mah. ataturk caddesi kadife sok no:24/-6 gul apt. kat 2|STREET=kadife|HOUSENUMBER=24|HOUSENUMBER.SUFFIX=6|APARTMENT=gul|FLOOR=2|QUARTER=kozyatagi|MAINSTREET=ataturk
+Enka İzmir Elektrik Santrali Aliağa	İzmir | COMPANY=enka izmir | eskiden Sadece Paritus.com'da undefined veriyor. denilmiş. doğru olması gerekiyor.
+Hilton Istanbul Bomonti Hotel & Conference Center | DISTINCTPOINT=conference center | jira: PAR-161
+Ekşioğlu Pansiyon Apart Otel | LODGING=ekşioğlu pansiyonu
+Koca Camii İlköğretim Okulu| ELEMENTARYSCHOOL=koca cami
+Beşiktaş Jimnastik Kulübü Müzesi | CULTURAL= jimnastik kulübü
+Diyanet Vakfı Konya Erkek Öğrenci Yurdu | DORMITORY=erkek yurdu | jira: PAR-166
+Ahmet Baldöktü Kız Yetiştirme Yurdu |DORMITORY=ahmet baldöktü kız yetiştirme | jira: PAR-166

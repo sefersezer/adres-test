@@ -1,0 +1,108 @@
+100. YIL mh. MUMCU ÇEŞME sk. no: 30 - KARADENİZ APT. daire:2 SÜLEYMANPAŞA TEKİRDAĞ | normalizedAddress=100. yıl mah. mumcu çeşme cad. karadeniz apt. no:30 d:2 59100 süleymanpaşa tekirdağ | streetHits.countUpperThan=0 | verificationScore=1000 | verificationType = KAPI NO  | bu adres sk. / cd. suffix yanlış yazılması sebebiyle hedef normalize adrese ulaşamamıştır.
+ 
+BÜYÜK CAMİ UĞUR MUMCU sk. no: 57 daire:A  KEŞAN EDİRNE | normalizedAddress= büyük cami mah. uğur mumcu cad. no:57 d:a 22800 keşan edirne | streetHits.countUpperThan=0 | quarter suffix olmadığından normalizedAddress'teki sonucu üretmiyor
+
+#scoring file 816 score
+#sefer cad | normalizedAddress= akören mah. sefer cad. ihsaniye afyonkarahisar | streetHits.id=SO-135344 | streetHits.countUpperThan=0 | verificationScore = 816 | verificationType = CADDESOK | locationType = MAHALLE | metaData.explanation = İLÇE,MAHALLE,ŞEHİR | 816 skoru ilçe ve mahalle olmadığında verilmeli. adres içinde şehir de olmadığı durumda 816 verilmiş; daha düşük bir skor verilmeliydi. JIRA: PAR-189
+
+#scoring file 960 score
+firüzköy MAHALLESİ CAMİ SOKAĞI no:44 d:1 AVCILAR İSTANBUL | normalizedAddress = üniversite MAHALLESİ CAMİ SOKAĞI no:44 d:1 AVCILAR İSTANBUL | verificationScore= 901 |  bu 1000lik adresi komşu mahallede bulup 960 vermek yerine 650 skor ile verificationType: OPERATOR1 olarak, streetHits.firstId:SO-184911 getiriyor. 
+
+#scoring file 920 score
+AYDOĞDU mh. ÇINARLI sk. no:2 daire:41  MERKEZ TEKİRDAĞ |normalizedAddress= çınarlı mah. çınarlı cad. 59200 süleymanpaşa tekirdağ | verificationScore=1000 | verificationType=KAPI NO | locationType=CADDESOK | streetHits.matchScore.partsUsed =false | streetHits.matchScore.fuzzyUsed =false	| ilk olarak sk -> cd. değişimi yapılmadığından partsUsed ve fuzzyUsed kullanılmış... UNEXCEPTEDADDRESS: çınarlı mah. ay sok. no:2 d:41 59200 süleymanpaşa tekirdağ
+
+#scoring file 910-912 score
+TOPTAŞI CAD.TABAKLAR MH. ŞAİR ZATI SK. NO:14 DA: İST 3 ÜSKÜDAR      TURKIYE | verificationScore= 0000 | streetHits.matchScore.partsUsed=true  |  streetHits.matchScore.fuzzyUsed= false |  mahalle değişimi var. cadde aynı, sokak bambaşka. UNEXCEPTEDADDRESS:zeynep kamil mah. toptaşı cad. tabaklar külhanı sok. no:14 d:ist 34668 3 üsküdar istanbul
+
+#test 998 score. distance ninetySix meter
+şehit muhtar mah. taksim sok. no:1 beyoğlu istanbul | verificationScore= 00 | streetHits.countUpperThan=1 | taksim yağhanesi, taksim fırını, taksim akarcası sokaklarının öneri olarak gelmesi gerekiyor.
+
+#test 998 score. 
+tomtom mah. bostan sok. no:1 beyoğlu istanbul | verificationScore =1000 | normalizedAddress =  tomtom mah. bostaniçi sok. no:1 34433 beyoğlu istanbul | example street hit distances too close. Paritus returns 998 score from first address
+
+
+#test 958 score. quarter name not defined in input address
+ZIKKIM RESTORANT CUMHURİYET CAD.ANTİK PETEK DÜKKANLARI NO:1-2   35700 BERGAMA/İZMİR TURKIYE | verificationScore= 958 | quarter name not defined in input address. but 958 architecture expects the quarter.
+
+#
+KOCA SİNAN mh. 2 sk. daire:4  MERKEZ EDİRNE | streetHits.countUpperThan=1 |  normalizedAddress=  KOCA SİNAN mh. 2 sokak. daire:4 MERKEZ EDİRNE | verificationScore = 895 | verificationType = CADDESOK | partsUsed ile ilgili sorun var. suggestedId: SO-858022 kaydının gelmemesi lazım
+
+#693 score
+VAKIFLAR mh. ATATÜRK sk. no:38 daire:A  ERGENE TEKİRDAĞ | streetHits.countUpperThan=1 | streetHits.firstId = SA-683868-3 | aynı adres için kombinasyon olması beklenen kayıtlar streetHits olarak geliyorlar. 
+
+#653 score.
+ATATÜRK CD. NO.152  BESNİ/ADIYAMAN | verificationScore= 653 | verificationType = OPERATOR1 |  locationType =CADDESOK | bu adres için mah + cadde olarak kayıt girilip 653 skor gelmesi lazım. fakat mahalle girilmeden bu skor gelmiş.
+
+#623 score.
+namık kemal mah. üniversite sok. daire süleymanpaşa tekirdağ | streetHits.countUpperThan=0 | streetHits.firstId=SA-384674 | locationType=CADDESOK | metaData.neighborQuarter = true|  SA-384674-1 , SA-384674-3 aynı adres için kombinasyon olması beklenen kayıtlar streetHits olarak geliyorlar. 
+
+#548 score.KOMŞU İLÇE KAPALI. BU TEST CASE GÖZDEN GEÇİRİLMELİ
+cumhuriyet MAH.  ÇORUM CAD. NO:5/A aydıncık çorum | metaData.neighborTown = true | verificationScore = 548 | doğrulama skoru komşu ilçeden dolayı 548 gelmeli, 598 geliyor. Sanki komşu ilçe değilmiş gibi çalışıyor
+
+#851 score
+SAKARYA CD.  KIRÇİÇEĞİ SK.  BEYLİKDÜZÜ/İSTANBUL | verificationScore= 851 | normalizedAddress = barış mah. sakarya cad. kırçiçeği sok. 34520 beylikdüzü istanbul | 851 skor için mahalle yazılması gerek. mahalle yazılmayan adresten nasıl 851 gelebilir? Sakarya cd sadece barış mh'de diye mi
+
+#515 score - CD SK DÖNÜŞÜMÜ İLE İLGİLİ BİR PROBLEM YAŞANIYOR.
+ZİYA GÖKALP CD. no:5 İSKENDERUN MERKEZ | streetHits.countUpperThan = 17 | streetHits.firstId = SO-176821 | 515 score cadde yazıldığında yanıt vermemeli; sokak olarak öneri göstermeli. Fakat bu örnekte öyle değil.
+
+#965 score KOMŞU İLÇE ARAMASI KAPALI. BU TEST CASE TEKRAR GÖZDEN GEÇİRİLMELİ
+SIRAEVLER CD. no:21 havran balıkesir  | normalizedAddress = güre mah. sıra evler cad. no:21 10300 edremit balıkesir | verificationScore= 1000 | verificationType = KAPI NO | locationType = KAPI NO | latitude= 39.58783 | longitude= 26.88082 | komşu ilçe araması yapılamıyor streetHits.firstId -> SO-636786 vermesi lazım
+
+#807 score - parser bug 
+TURAN EMEKSİZ SK.NO.333 ANKARA G.O.P. | normalizedAddress = gaziosmanpaşa mah. turan emeksiz sok. no:333 06700 g. o. p. çankaya ankara | parser bug -> kapı no / postakodu / kısaltma görüyor. posta kodunu atıp kısaltma noktalı olmasına rağmen onu kapınumarasına katıyor. -- BU ÖRNEKTE BAHSİ GEÇEN PROBLEMİ YAKALAYAMADIM. İLGİNÇ
+ 
+#807 score - parser bug 
+ YALIKAVAK SK 241-2 ANKARA A.EYLENCE | normalizedAddress = aşağı eğlence mah. yalıkavak sok. 241/2 a. 06010 eylence keçiören ankara | parser bug -> numaraya ankara kelimesinden sonraki a yı katıyor
+ 
+#507 score - parser improvement
+ TALATPAŞA CADDESİKAYA SK. NO:52       TURKIYE | normalizedAddress =  talatpaşa caddesikaya sok. no:52 | parser caddesi[a-z] kelimelerini "caddesi", "[a-z]" ayırmalı
+ 
+#977 score - merkez confusion
+ YEŞİLBAHAR SK. YEŞİLIRMAK APT. NO:21 ÇİFTEHAVUZLAR | normalizedAddress = göztepe mah. yeşilbahar sok. yeşilırmak apt. no:21 34730 çiftehavuzlar kadıköy istanbul | 977 skorun merkez ilçe eklenerek gelmesi gerekiyor. fakat bu örnekte kadıköy gelmiş. "merkez" :: "kadıköy" eşitliği mi var?
+ 
+#502 score
+VİMPA İNŞAAT HASTANE CD.2SK. YENİ ASYA İŞ HN.NO.2 65100 MERKEZ/VAN | normalizedAddress = vimpa inşaat yeni asya iş hanı hastane cad. 2 sok. no:2 65100 merkez van | streetHits.countUpperThan = 49 | streetHits.firstId = SA-220843-1 | poiVerificationScore= 100 | verificationScore= 502 | verificationType=OPERATOR2 |locationType =İLÇE |latitude= 38.659224 | longitude= 43.412671 | check firstId
+
+#930 score
+YAVUZ mh. HÜKÜMET sk. 93 - BAYOL PSJ daire:1  MERKEZ TEKİRDAĞ | metaData.bestMatchScore.fuzzyUsed=true| Fuzzy nerede kullanılmış, bilemedim. merkez yerine Süleymanpaşa yazıldığında fuzzy=false oluyor, başka değişiklik olmuyor.
+
+#konum :ilçe, uavt :bina, doğrulama türü : kn
+Yayla mh yaylaköy köyü gülle sk no:9 topçuoğlu sitesi mecidiye keşan edirne | latitude=0.0 | longitude =0.0 | indexte çift mahalle olduğundan konum 0,0 olarak geliyor
+BÜYÜKKABACA köyü SAKARYA SOK.NO 36     ISPARTA SENİRKENT |  latitude=0.0 | longitude =0.0 
+
+#696 score - single road, two writing alternative
+sakız ağaı cad keçiören ankara | normalizedAddress = sakız ağaı cad. keçiören ankara | streetHits.countUpperThan = 1 | streetHits.firstId = SO-48280 | verificationScore= 696 | verificationType= OPERATOR1 | locationType =CADDESOK  | single road, two writing alternative in index
+
+#696 score
+SARAY YAVUZ SULTAN SELİM CAD.ALANYA ALANYA ANTALYA 7400 07400 ALANYA/ANTALYA TURKIYE | normalizedAddress = saray yavuz sultan selim cad. 7400 07400 alanya antalya | streetHits.countUpperThan =0 | streetHits.firstId = SO-1038930 | verificationScore= 696 | verificationType= OPERATOR1 | locationType = CADDESOK | latitude= 0.0 | longitude= 0.0 | hitler içinde SO-106167 kaydı diğerleriyle ilişkili olması beklenirken ilişkisiz gelmiş.
+
+#520 score
+SANATORYUM CD NO.24/16 K.ÖREN/ANKARA | verificationScore= 520 | verificationType= OPERATOR2 |locationType= İLÇE | latitude= 39.98696 | longitude= 32.86472 | streetHits.countUpperThan= 8 | birbiriyle bağıntısız kayıtlar olması gerek. ama sadece mahalleleri değişmiş gibi... böyle olmaması gerekiyor.
+
+#680 score - operator1
+şible dereboyu sok. turan apt. a blok d8 bursa | streetHits.countUpperThan= 3 | streetHits.firstId = SO-144561 | verificationScore= 680| verificationType=OPERATOR1 | locationType= CADDESOK | latitude= 0.0 |longitude= 0.0 | streetHits.matchScore.partsUsed=true | farklı mahallelerdeki şıble ve dereboyu sokaklar suggest olarak geliyor. 680 skorun yakın olanları göstermesi lazım. bunlar sadece kelime olarak yakın. Ama aslında uzak denilmesi gerekir. yakını buysa uzağı nasıl olacak? ve koordinat 0,0 gelirken locationType caddesok olarak geliyor.
+
+
+#808 score - includes district.
+SEYRANTEPE BİLEK SK. 4.LEVENT | normalizedAddress = hamidiye mah. bilek sok. 34408 4. levent kağıthane istanbul | streetHits.firstId=SO-767737 | streetHits.countUpperThan=0 | verificationScore= 808 | verificationType = CADDESOK | locationType =CADDESOK | latitude= 41.09301 |  longitude= 28.97826 | metaData.explanation= MAHALLE | hatay semt, karabağlar ilçedir. 808 skor için merkez ilçe eklemesi gerekmektedir ama öyle bişey yapılmamış sanki. Nasıl kontrol edeceğiz bunu?
+
+#prefixUsed & partsUsed tests
+merkez mah. havuz sok. gaziosmanpaşa istanbul | streetHits.countUpperThan=1
+boğazköy istiklal mah. yeşil sok. arnavutköy istanbul | streetHits.countUpperThan =1
+
+kavaslı mah. atatürk cad. atatürk bulvarı ahmet gürses apt. no:81 k:2 d:5 HATAY MERKEZ | latitude=1 |  longitude= 0 |koordinat sıfır geliyor jira : PAR-191
+
+Hastane Bayırı Şehitliği merkez çanakkale | jira:PAR-160
+Kültür Bakanlığı Müzesi | normalizedAddress=kültür bakanlığı müzesi aşağı kayabaşı mah. 51100 merkez niğde | jira: PAR-162
+
+#adresler doğrulanmıyor, bulunamıyor...
+DAÜ YABANCI DILLER OKULU KUZEY KAMPÜS 392 MAĞUSA GAZİMAGOSA K.K.T.C. |jira: VY-9
+DAÜ İNGİLİZCE HAZIRLIK OKULU SFLA BİNASI GÜNEY KAMPÜS OFİS 236 392 GAZİMAĞUSA K.K.T.C. |jira:VY-9
+DAÜ YABANCI DİLLER OKULU GAZİMAĞUSA K.K.T.C. | jira:VY-9
+
+Samsun Özel Ar Lisesi Fen Lisesi | normalizedAddress= lisesi cumhuriyet mah. özel idare sok. 55420 ondokuzmayıs samsun | false positive jira:PAR-48
+H. Tahsin İlk Kurşun Anıtı Konak	İzmir | normalizedAddress=tahsin ilk kurşun anıtı konak mah. 35250 konak izmir | aslında bu kaydın başında H. kısaltması vardı noldu ona?
+
+bostancı mah. bostancı cd. 34744 kadıköy istanbul | normalizedAddress = bostancı mah. bostancı yan yolu caddesi 34744 kadıköy istanbul
+
+cirit meydanı mahallesi atatürk caddesi no:245/1 besni adıyaman | normalizedAddress=cirit meydanı mahallesi atatürk caddesi no:245/1 besni adıyaman | jira AP-21
